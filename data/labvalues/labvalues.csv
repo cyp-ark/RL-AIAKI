@@ -1,0 +1,17 @@
+﻿labvalue,abbreviation,itemid,lb,ub,lb_cond,ub_cond
+Albumin,Alb,227456,0.6,6,ge,le
+Alkaline Phosphate,Alk_Phos,225612,20,3625,ge,le
+Anion Gap,AG,227073,5,50,ge,le
+Blood urea nitrogen,BUN,225624,0,300,gt,le
+Calcium,Ca,225625,0.2,20,ge,le
+Creatine Kinase,CK,225634,0,30000,ge,le
+Direct Bilirubin,D_Bil,225651,0,100,gt,le
+Glucose,Glu,220621,20,2000,ge,le
+Hematocrit,HCT,220545,0,100,gt,lt
+PH,PH,223830,6.5,7.8,ge,le
+Phosphorous,PHOS,225677,0,1000,gt,lt
+Serum chloride,Cl,220602,50,175,ge,le
+Serum creatinine,SCr,220615,0,40,gt,le
+Serum Sodium,NA,220645,80,200,ge,le
+Total Bilirubin,T_Bil,225690,0,100,gt,le
+White blood cell count,WBC,220546,0,200,ge,le
