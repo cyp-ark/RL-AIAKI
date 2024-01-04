@@ -3,15 +3,42 @@ Albumin,Alb,227456,0.6,6,ge,le
 Alkaline Phosphate,Alk_Phos,225612,20,3625,ge,le
 Anion Gap,AG,227073,5,50,ge,le
 Blood urea nitrogen,BUN,225624,0,300,gt,le
-Calcium,Ca,225625,0.2,20,ge,le
+Calcium non-ionized,Ca,225625,0.2,20,ge,le
 Creatine Kinase,CK,225634,0,30000,ge,le
 Direct Bilirubin,D_Bil,225651,0,100,gt,le
 Glucose,Glu,220621,20,2000,ge,le
 Hematocrit,HCT,220545,0,100,gt,lt
+International Normalized Ratio,INR,227467,0.3,10,ge,le
 PH,PH,223830,6.5,7.8,ge,le
 Phosphorous,PHOS,225677,0,1000,gt,lt
+Platelet Count,Platelet,227457,0,1500,gt,lt
 Serum chloride,Cl,220602,50,175,ge,le
 Serum creatinine,SCr,220615,0,40,gt,le
 Serum Sodium,NA,220645,80,200,ge,le
+Serum Potassium,Potassium,227442,0,10,gt,le
 Total Bilirubin,T_Bil,225690,0,100,gt,le
 White blood cell count,WBC,220546,0,200,ge,le
+Serum glucose,Gl,220621,20,2000,gt,lt
+Magnesium,Mg,220635,0,6,ge,le
+Ionized calcium,Ca_ion,225667,0.1,10,gt,lt
+Serum HCO3,HCO3,227443,0,600,gt,lt
+AST,AST,220587,6,20000,gt,lt
+ALT,ALT,220644,2,10000,gt,lt
+PTT,PTT,227466,0,300,ge,le
+Arterial O2 pressure,PaO2,220224,10,500,gt,lt
+Arterial CO2 Pressure,PaCO2,220235,0,200,gt,le
+Arterial Base Excess,baseexcess,224828,-100,100,ge,le
+Lactic Acid,lactate,225668,0,30,gt,lt
+Inspired O2 Fraction,FiO2,223835,21,100,gt,lt
+Arterial O2 Saturation,SaO2,220227,0,100,gt,lt
+Respiratory Rate,RR,220210,0,60,gt,le
+Arterial Blood Pressure systolic,ABPs,220050,0,300,gt,le
+Arterial Blood Pressure diastolic,ABPd,220051,10,175,gt,lt
+Non Invasive Blood Pressure systolic,NBPs,220179,0,300,gt,le
+Non Invasive Blood Pressure diastolic,NBPd,220180,10,175,gt,lt
+Temperature Celsius,tempC,223762,32,43,gt,le
+Temperature Fahrenheit,tempF,223761,89,200,gt,lt
+Heart Rate,HR,220045,0,300,ge,le
+ART BP Systolic,ARTBPs,225309,0,300,gt,le
+ART BP Diastolic,ARTBPd,225310,10,175,gt,lt
+Central Venous Pressure,CVP,220074,0,50,gt,lt
