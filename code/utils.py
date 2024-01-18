@@ -47,3 +47,11 @@ def baseline_SCr(chartevents_SCr, icustays, labevents) :
 
     df_baseline_sCr_list = pd.DataFrame(baseline_SCr_list, columns=['subject_id','stay_id','valuenum'])
     return df_baseline_sCr_list
+
+def resample_ffill(resample_):
+    resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].ffill()
+    return resample_
+
+def resample_bfill(resample_):
+    resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].bfill()
+    return resample_
