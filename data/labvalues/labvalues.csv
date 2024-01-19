@@ -14,7 +14,7 @@ Phosphorous,PHOS,50970,225677,0,1000,gt,lt
 Platelet Count,Platelet,"51265, 51704",227457,0,1500,gt,lt
 Serum chloride,Cl,"50902, 52535",220602,50,175,ge,le
 Serum creatinine,SCr,"50912, 52546, 51081",220615,0,40,gt,le
-Serum Sodium,NA,"50983, 52623",220645,80,200,ge,le
+Serum Sodium,Na,"50983, 52623",220645,80,200,ge,le
 Serum Potassium,Potassium,"50971, 52610, 50822",227442,0,10,gt,le
 Total Bilirubin,T_Bil,50885,225690,0,100,gt,le
 White blood cell count,WBC,"51301, 51755, 51756, 51300",220546,0,200,ge,le
