@@ -6,7 +6,6 @@ Arterial Blood Pressure systolic,ABPs,"220050, 225309",0,300,gt,le
 Arterial Blood Pressure diastolic,ABPd,"220051, 225310",10,175,gt,lt
 Non Invasive Blood Pressure systolic,NBPs,220179,0,300,gt,le
 Non Invasive Blood Pressure diastolic,NBPd,220180,10,175,gt,lt
-Temperature Celsius,tempC,223762,32,43,gt,le
-Temperature Fahrenheit,tempF,223761,89,200,gt,lt
+Temperature Celsius,temp,223762,32,43,gt,le
 Heart Rate,HR,220045,0,300,ge,le
 Central Venous Pressure,CVP,220074,0,50,gt,lt

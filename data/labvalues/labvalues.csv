@@ -27,3 +27,5 @@ ALT,ALT,50861,220644,2,10000,gt,lt
 PTT,PTT,51275,227466,0,300,ge,le
 Arterial Base Excess,baseexcess,50802,224828,-100,100,ge,le
 Lactic Acid,lactate,50813,225668,0,30,gt,lt
+Arterial O2 pressure,PaO2,50821,220224,10,500,gt,lt
+Arterial CO2 Pressure,PaCO2,50818,220235,0,200,gt,le

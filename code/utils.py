@@ -55,3 +55,8 @@ def resample_ffill(resample_):
 def resample_bfill(resample_):
     resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].bfill()
     return resample_    
+
+def resample_fill(resample_):
+    resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].ffill()
+    resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].bfill()
+    return resample_
