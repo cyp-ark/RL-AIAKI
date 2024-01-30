@@ -211,15 +211,18 @@ def cal_comorbidities(icustays,comorbidities,diagnoses_icd):
     rt.drop_duplicates(inplace=True)
     return rt
 
-def cal_BP(resample_ABPs, resample_NBPs):
+def cal_BP(resample_ABPs, resample_NBPs, isSBP):
     # stay_id와 charttime을 기준으로 두 DataFrame을 병합
-    merged_df = resample_ABPs.merge(resample_NBPs, on=['subject_id','hadm_id','stay_id', 'charttime'], how='left', suffixes=('', '_nbp'))
+    if isSBP : ART, NI, BP=  'ABPs', 'NBPs', 'SBP'
+    else : ART, NI, BP=  'ABPd', 'NBPd', 'DBP'
+    
+    merged_df = resample_ABPs.merge(resample_NBPs, on=['subject_id','hadm_id','stay_id', 'charttime'], how='left')
 
     # valuenum 열에서 NaN을 대체
-    merged_df['valuenum'] = np.where(pd.isna(merged_df['valuenum']), merged_df['valuenum_nbp'], merged_df['valuenum'])
+    merged_df[BP] = np.where(pd.isna(merged_df[ART]), merged_df[NI], merged_df[ART])
 
     # 원래의 열만 남기고 반환
-    return merged_df[['subject_id','hadm_id','stay_id', 'charttime', 'valuenum']]
+    return merged_df[['subject_id','hadm_id','stay_id', 'charttime', BP]]
 
 def cal_MAP(resample_DBP,resample_SBP):
     resample_MAP = pd.merge(resample_DBP,resample_SBP,on=['subject_id','hadm_id','stay_id','charttime'],how='left')
@@ -298,7 +301,7 @@ def cal_uo(outputevents):
 
     outputevents_uo.sort_values(['subject_id','hadm_id','stay_id','charttime'],inplace=True)
     outputevents_uo.reset_index(inplace=True,drop=True)
-    outputevents_uo.rename(columns={'value':'uo'},inplace=True)
+    outputevents_uo.rename(columns={'value':'valuenum'},inplace=True)
     return outputevents_uo
 
 
@@ -393,7 +396,7 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
     icustays_outtime = icustays_outtime.rename(columns={'outtime':'charttime'})
     for i in tqdm(icustays.hadm_id.unique()):
         tmp_hosp = labevents_[labevents_['hadm_id']==i]
-        tmp_hosp = tmp_hosp[['subject_id','hadm_id','charttime','itemid','valuenum']]
+        tmp_hosp = tmp_hosp[['subject_id','hadm_id','charttime','valuenum']]
         tmp_hosp.sort_values('charttime',ascending=True, inplace=True)
 
         for i in icustays[icustays['hadm_id']==i].stay_id.unique():
@@ -418,9 +421,9 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
             rt.append(tmp)
     rt = pd.concat(rt)
     rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
-    rt['valuenum'] = resample_fill(rt['valuenum'])
+    rt = resample_fill(rt)
     rt.rename(columns={'valuenum':valuename},inplace=True)
-    return pd.concat(rt)
+    return rt
 
 def resample_vitals(chartevents_,icustays,valuename):
     rt = []
@@ -443,16 +446,44 @@ def resample_vitals(chartevents_,icustays,valuename):
         tmp[['subject_id','hadm_id','stay_id']] = tmp_id
         rt.append(tmp)
     rt = pd.concat(rt)
-    rt['valuenum'] = resample_fill(rt['valuenum'])
+    rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
+    rt = resample_fill(rt)
+    rt.rename(columns={'valuenum':valuename},inplace=True)
+    return rt
+
+def resample_urine(chartevents_,icustays,valuename):
+    rt = []
+    icustays_intime = icustays[['subject_id','hadm_id','stay_id','intime']]
+    icustays_intime = icustays_intime.rename(columns={'intime':'charttime'})
+
+    icustays_outtime = icustays[['subject_id','hadm_id','stay_id','outtime']]
+    icustays_outtime = icustays_outtime.rename(columns={'outtime':'charttime'})
+    for i in tqdm(icustays.stay_id.unique()):
+        tmp = chartevents_[chartevents_['stay_id']==i]
+        tmp_id = icustays[icustays['stay_id']==i][['subject_id','hadm_id','stay_id']].iloc[0].to_list()
+        tmp_intime = icustays_intime[icustays_intime['stay_id']==i]
+        tmp_outtime = icustays_outtime[icustays_outtime['stay_id']==i]
+
+        tmp = pd.concat([tmp, tmp_intime, tmp_outtime])
+        tmp = tmp[(tmp['charttime'].values >= tmp_intime.charttime.values)&(tmp['charttime'].values <= tmp_outtime.charttime.values)]
+        tmp.index = pd.DatetimeIndex(tmp['charttime'])
+        tmp = pd.DataFrame(tmp['valuenum'].resample(rule='H', origin='start').sum())
+        tmp.reset_index(drop=False,inplace=True)
+        tmp[['subject_id','hadm_id','stay_id']] = tmp_id
+        rt.append(tmp)
+    rt = pd.concat(rt)
+    rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
+    rt = resample_fill(rt)
     rt.rename(columns={'valuenum':valuename},inplace=True)
     return rt
 
 
-def AKI_UO_annotation(resample_SCr,admission_weight):
+def AKI_UO_annotation(resample_uo,admission_weight):
     for i in tqdm(range(6,49,1)):
-        rolling_avg=resample_SCr.groupby('stay_id').rolling(window=str(i)+'H', on='charttime',min_periods=i)['value'].mean().reset_index(drop=True)
-        resample_SCr['roll_%iH' % i] = rolling_avg
-    df = pd.merge(resample_SCr,admission_weight,on=['subject_id','stay_id'],how='left')
+        rolling_avg=resample_uo.groupby('stay_id').rolling(window=str(i)+'H', on='charttime',min_periods=i)['uo'].mean().reset_index()
+        rolling_avg.rename(columns={'uo':'roll_%iH' % i},inplace=True)
+        resample_uo = pd.merge(resample_uo,rolling_avg,on=['stay_id','charttime'],how='left')
+    df = pd.merge(resample_uo,admission_weight,on=['subject_id','stay_id'],how='left')
     df['6-12H_min'] = df[df.columns[6:13]].min(axis=1)/df['valuenum']
     df['12H-_min'] = df[df.columns[12:49]].min(axis=1)/df['valuenum']
     df['24H-_min'] = df[df.columns[24:49]].min(axis=1)/df['valuenum']
@@ -469,7 +500,9 @@ def AKI_SCr_annotation(resample_SCr,baseline_SCr,resample_rrt):
     df = resample_SCr.copy()
     df = pd.merge(df,baseline_SCr,on=['subject_id','hadm_id','stay_id'],how='left')
     df = pd.merge(df,resample_rrt,on=['subject_id','hadm_id','stay_id','charttime'],how='left')
-    df['SCr_48hrs_min'] = df.groupby('stay_id').rolling(window='48H', on='charttime')['SCr'].min().reset_index(drop=True)
+    SCr_48hrs_min = df.groupby('stay_id').rolling(window='48H', on='charttime')['SCr'].min().reset_index()
+    SCr_48hrs_min.rename(columns={'SCr':'SCr_48hrs_min'},inplace=True)
+    df = pd.merge(df,SCr_48hrs_min,on=['stay_id','charttime'],how='left')
     
     df['AKI_SCr'] = 0
     df.loc[((df['SCr']>=1.5*df['baseline_SCr'])&(df['SCr']<2.0*df['baseline_SCr']))|(df['SCr']>=0.3+df['SCr_48hrs_min']), 'AKI_SCr'] = 1
