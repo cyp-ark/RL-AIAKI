@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tqdm.notebook import tqdm
 from datetime import timedelta
-import os
+import os, math
 
 def columns_to_datetime(df):
     if 'charttime' in df.columns:
@@ -262,14 +262,14 @@ def cal_baseline_SCr(labevents,icustays,patients_gender,icustays_age,admissions_
             baseline_SCr = 0
             MDRD = 0
 
-            labevents_SCr_list_7days = tmp_labevents[(tmp_labevents['charttime'] < icustays_intime)&(tmp_labevents['charttime'] > icustays_intime_7days)]
-            labevents_SCr_list_1yr   = tmp_labevents[(tmp_labevents['charttime'] <= icustays_intime_7days)&(tmp_labevents['charttime'] > icustays_intime_1yr)]
+            labevents_SCr_7days = tmp_labevents[(tmp_labevents['charttime'] < icustays_intime)&(tmp_labevents['charttime'] > icustays_intime_7days)&(~tmp_labevents['hadm_id'].isna())]['valuenum'].min()
+            labevents_SCr_1yr   = tmp_labevents[(tmp_labevents['charttime'] <= icustays_intime_7days)&(tmp_labevents['charttime'] > icustays_intime_1yr)&(~tmp_labevents['hadm_id'].isna())]['valuenum'].median()
 
-            if not labevents_SCr_list_7days.empty:
-                baseline_SCr = labevents_SCr_list_7days['valuenum'].min()
+            if not math.isnan(labevents_SCr_7days):
+                baseline_SCr = labevents_SCr_7days
                 MDRD = 1
-            elif not labevents_SCr_list_1yr.empty:
-                baseline_SCr = labevents_SCr_list_1yr['valuenum'].median()
+            elif not math.isnan(labevents_SCr_1yr):
+                baseline_SCr = labevents_SCr_1yr
                 MDRD = 2
             else: 
                 baseline_SCr = (np.exp(5.228/1.154-0.203/1.154*np.log(age)-0.299/1.154*gender+0.192/1.154*black-np.log(75)/1.154)).round(1)
