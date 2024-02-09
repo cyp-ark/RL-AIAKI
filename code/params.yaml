@@ -1,0 +1,8 @@
+random_seed : 2345
+device : 'cpu'
+
+train : './data/train.parquet'
+val : './data/val.parquet'
+
+minibatch_size : 64
+rolling_size : 24
