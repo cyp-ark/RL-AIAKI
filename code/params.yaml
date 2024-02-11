@@ -1,8 +1,19 @@
 random_seed : 2345
-device : 'cpu'
+device : 'cuda'
 
 train : './data/train.parquet'
 val : './data/val.parquet'
 
 minibatch_size : 64
 rolling_size : 24
+
+
+state_dim : 70
+num_actions : 12
+n_units : 128
+gamma : 1
+learning_rate : 0.001
+update_freq : 2
+
+exp_saving_period: 1
+exp_num_epochs: 100

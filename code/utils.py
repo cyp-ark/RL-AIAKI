@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 from datetime import timedelta
 import os, math
 
@@ -338,6 +338,9 @@ def extract_labvalues(chartevents,labevents,labvalues,is_in_icu):
 
     return df
 
+def resample_ffill(resample_):
+    resample_['valuenum'] = resample_.groupby('stay_id')['valuenum'].ffill()
+    return resample_
 
 
 # resample
@@ -403,9 +406,10 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
             tmp = chartevents_[chartevents_['stay_id']==i]
             tmp_id = icustays[icustays['stay_id']==i][['subject_id','hadm_id','stay_id']].iloc[0].to_list()
             tmp_intime = icustays_intime[icustays_intime['stay_id']==i]
+            tmp_intime['charttime'] = tmp_intime['charttime'] - np.timedelta64(23,'H')
             tmp_outtime = icustays_outtime[icustays_outtime['stay_id']==i]
 
-            tmp = pd.concat([tmp, tmp_intime, tmp_outtime])
+            tmp = pd.concat([tmp, tmp_intime, tmp_outtime, tmp_hosp])
 
             tmp = tmp[(tmp['charttime'].values >= tmp_intime.charttime.values)&(tmp['charttime'].values <= tmp_outtime.charttime.values)]
             tmp.index = pd.DatetimeIndex(tmp['charttime'])
@@ -421,7 +425,8 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
             rt.append(tmp)
     rt = pd.concat(rt)
     rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
-    rt = resample_fill(rt)
+    rt = resample_ffill(rt)
+    rt.loc[~rt['valuenum'].isna(),'presense'+valuename] = 1
     rt.rename(columns={'valuenum':valuename},inplace=True)
     return rt
 

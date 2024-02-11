@@ -14,7 +14,7 @@ def init_weights(m):
         m.bias.data.fill_(0.)
 
 class QNetwork(nn.Module):
-    def __init__(self, state_dim=16, nb_actions=None):
+    def __init__(self, state_dim, nb_actions=None):
         super(QNetwork_64, self).__init__()
 
         self.state_dim = state_dim
@@ -31,20 +31,71 @@ class QNetwork(nn.Module):
         x = self.fc(x)
         return x
 
+class IMVFullLSTM(torch.jit.ScriptModule):
+    __constants__ = ["n_units", "input_dim"]
+    def __init__(self, state_dim, nb_actions, n_units, init_std=0.02):
+        super().__init__()
+        self.U_j = nn.Parameter(torch.randn(input_dim, 1, n_units)*init_std)
+        self.W_j = nn.Parameter(torch.randn(input_dim, n_units, n_units)*init_std)
+        self.b_j = nn.Parameter(torch.randn(input_dim, n_units)*init_std)
+        self.W_i = nn.Linear(input_dim*(n_units+1), input_dim*n_units)
+        self.W_f = nn.Linear(input_dim*(n_units+1), input_dim*n_units)
+        self.W_o = nn.Linear(input_dim*(n_units+1), input_dim*n_units)
+        self.F_alpha_n = nn.Parameter(torch.randn(input_dim, n_units, 1)*init_std)
+        self.F_alpha_n_b = nn.Parameter(torch.randn(input_dim, 1)*init_std)
+        self.F_beta = nn.Linear(2*n_units, 1)
+        self.Phi = nn.Linear(2*n_units, output_dim)
+        self.n_units = n_units
+        self.input_dim = input_dim
+    @torch.jit.script_method
+    def forward(self, x):
+        h_tilda_t = torch.zeros(x.shape[0], self.input_dim, self.n_units).cuda()
+        c_t = torch.zeros(x.shape[0], self.input_dim*self.n_units).cuda()
+        outputs = torch.jit.annotate(List[Tensor], [])
+        for t in range(x.shape[1]):
+            # eq 1
+            j_tilda_t = torch.tanh(torch.einsum("bij,ijk->bik", h_tilda_t, self.W_j) + \
+                                   torch.einsum("bij,jik->bjk", x[:,t,:].unsqueeze(1), self.U_j) + self.b_j)
+            inp =  torch.cat([x[:, t, :], h_tilda_t.view(h_tilda_t.shape[0], -1)], dim=1)
+            # eq 2
+            i_t = torch.sigmoid(self.W_i(inp))
+            f_t = torch.sigmoid(self.W_f(inp))
+            o_t = torch.sigmoid(self.W_o(inp))
+            # eq 3
+            c_t = c_t*f_t + i_t*j_tilda_t.reshape(j_tilda_t.shape[0], -1)
+            # eq 4
+            h_tilda_t = (o_t*torch.tanh(c_t)).view(h_tilda_t.shape[0], self.input_dim, self.n_units)
+            outputs += [h_tilda_t]
+        outputs = torch.stack(outputs)
+        outputs = outputs.permute(1, 0, 2, 3)
+        # eq 8
+        alphas = torch.tanh(torch.einsum("btij,ijk->btik", outputs, self.F_alpha_n) +self.F_alpha_n_b)
+        alphas = torch.exp(alphas)
+        alphas = alphas/torch.sum(alphas, dim=1, keepdim=True)
+        g_n = torch.sum(alphas*outputs, dim=1)
+        hg = torch.cat([g_n, h_tilda_t], dim=2)
+        mu = self.Phi(hg)
+        betas = torch.tanh(self.F_beta(hg))
+        betas = torch.exp(betas)
+        betas = betas/torch.sum(betas, dim=1, keepdim=True)
+        mean = torch.sum(betas*mu, dim=1)
+        return mean, alphas, betas
+
 
 class RL(object):
-    def __init__(self, state_dim, nb_actions, gamma,
+    def __init__(self, state_dim, nb_actions, n_units, gamma,
                  learning_rate, update_freq, rng, device):
         self.rng = rng
         self.state_dim = state_dim
         self.nb_actions = nb_actions
+        self.n_units = n_units
         self.gamma = gamma
         self.learning_rate = learning_rate
         self.update_freq = update_freq
         self.update_counter = 0
         self.device = device
-        self.network = QNetwork(state_dim=self.state_dim, nb_actions=self.nb_actions)
-        self.target_network = QNetwork(state_dim=self.state_dim, nb_actions=self.nb_actions)
+        self.network = IMVFullLSTM(state_dim=self.state_dim, nb_actions=self.nb_actions, n_units=self.n_units)
+        self.target_network = IMVFullLSTM(state_dim=self.state_dim, nb_actions=self.nb_actions)
         self.weight_transfer(from_model=self.network, to_model=self.target_network)
         self.network.to(self.device)
         self.target_network.to(self.device)
@@ -58,9 +109,9 @@ class RL(object):
         t  = torch.FloatTensor(np.float32(t)).to(self.device)
 
         with torch.no_grad():
-            q = self.network(s).detach()
-            q2 = self.target_network(s2).detach()
-            q2_net = self.network(s2).detach()
+            q,_,_ = self.network(s).detach()
+            q2,_,_ = self.target_network(s2).detach()
+            q2_net,_,_ = self.network(s2).detach()
             q2_max = q2.gather(1, torch.max(q2_net, 1)[1].unsqueeze(1)).squeeze(1)
         q_pred = q.gather(1, a.unsqueeze(1)).squeeze(1) 
 
@@ -80,9 +131,9 @@ class RL(object):
         t  = torch.FloatTensor(np.float32(t)).to(self.device)
 
         with torch.no_grad():
-            q = self.network(s).detach()
-            q2 = self.target_network(s2).detach()
-            q2_net = self.network(s2).detach()
+            q,_,_ = self.network(s).detach()
+            q2,_,_ = self.target_network(s2).detach()
+            q2_net,_,_ = self.network(s2).detach()
             q2_max = q2.gather(1, torch.max(q2_net, 1)[1].unsqueeze(1)).squeeze(1)
         q_pred = q.gather(1, a.unsqueeze(1)).squeeze(1) 
             
@@ -204,8 +255,7 @@ class DQNExperiment(object):
 
 
 def train(params, rng, loader_train, loader_validation):
-    qnet = RL(state_dim=params["embed_state_dim"], nb_actions=params["num_actions"], gamma=params["gamma"], learning_rate=params["rl_learning_rate"], 
-                update_freq=params["update_freq"], rng, device=params["device"])
+    qnet = RL(state_dim=params["state_dim"], nb_actions=params["num_actions"], gamma=params["gamma"], learning_rate=params["rl_learning_rate"],update_freq=params["update_freq"], rng=params["random_seed"], device=params["device"])
     print('Initializing Experiment')
     expt = DQNExperiment(data_loader_train=loader_train, data_loader_validation=loader_validation, q_network=qnet, ps=0, ns=2,
                         folder_location=params["folder_location"], folder_name=params["folder_name"], 
@@ -215,5 +265,3 @@ def train(params, rng, loader_train, loader_validation):
     print('Running experiment (training Q-Networks)')
     expt.do_epochs(number=params["exp_num_epochs"])
     print("Training Q-Networks finished successfully")
-
-

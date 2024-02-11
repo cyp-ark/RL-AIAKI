@@ -6,6 +6,7 @@ from datetime import timedelta
 import os, math, torch
 import torch.nn as nn
 import torch.nn.functional as F
+import operator
 
 class DataLoader(object):
     def __init__(self, df, rng, device, minibatch_size, rolling_size, type):
@@ -23,20 +24,30 @@ class DataLoader(object):
         self.index_neg_last = []
         self.data_size = None
 
+        self.transitions_head = None
+        self.transitions_head_pos = None
+        self.transitions_head_neg = None
+        self.epoch_finished = True  # to enforce reset() before use
+        self.epoch_pos_finished = True
+        self.epoch_neg_finished = True
+        self.num_minibatches_epoch = None
+
+        self.drop_smaller_than_minibatch = False
+
     def reset(self, shuffle, pos_samples_in_minibatch, neg_samples_in_minibatch):
         self.ps = pos_samples_in_minibatch
         self.ns = neg_samples_in_minibatch
         if shuffle:
-            self.rng.shuffle(self.transition_indices)
-            self.rng.shuffle(self.transition_indices_pos_last)
-            self.rng.shuffle(self.transition_indices_neg_last)
+            self.rng.shuffle(self.index_transition)
+            self.rng.shuffle(self.index_pos_last)
+            self.rng.shuffle(self.index_neg_last)
         self.transitions_head = 0
         self.transitions_head_pos = 0
         self.transitions_head_neg = 0
         self.epoch_finished = False
         self.epoch_pos_finished = False
         self.epoch_neg_finished = False
-        self.num_minibatches_epoch = int(np.floor(self.transition_data_size / self.minibatch_size)) + int(1 - self.drop_smaller_than_minibatch)
+        self.num_minibatches_epoch = int(np.floor(self.data_size / self.minibatch_size)) + int(1 - self.drop_smaller_than_minibatch)
 
     def make_transition(self):
         self.dict['traj'] = {}
@@ -89,23 +100,20 @@ class DataLoader(object):
             return None
         # Getting data from dictionaries
         offset = self.ns + self.ps
-        minibatch_main_index_list = list(self.transition_indices[self.transitions_head:self.transitions_head + self.minibatch_size - offset])
-        minibatch_pos_last_index_list = self.transition_indices_pos_last[self.transitions_head_pos:self.transitions_head_pos + self.ps]
-        minibatch_neg_last_index_list = self.transition_indices_neg_last[self.transitions_head_neg:self.transitions_head_neg + self.ns]
+        minibatch_main_index_list = list(self.index_transition[self.transitions_head:self.transitions_head + self.minibatch_size - offset])
+
         self.transitions_head_pos += self.ps
         self.transitions_head_neg += self.ns
-        minibatch_index_list = minibatch_main_index_list + minibatch_pos_last_index_list + minibatch_neg_last_index_list
+        minibatch_index_list = minibatch_main_index_list
         get_from_dict = operator.itemgetter(*minibatch_index_list)
-        s_minibatch = get_from_dict(self.transition_data['s'])
-        actions_minibatch = get_from_dict(self.transition_data['actions'])
-        rewards_minibatch = get_from_dict(self.transition_data['rewards'])
-        next_s_minibatch = get_from_dict(self.transition_data['next_s'])
-        terminals_minibatch = get_from_dict(self.transition_data['terminals'])
+        s_minibatch = get_from_dict(self.transition['s'])
+        actions_minibatch = get_from_dict(self.transition['a'])
+        rewards_minibatch = get_from_dict(self.transition['r'])
+        next_s_minibatch = get_from_dict(self.transition['next_s'])
+        terminals_minibatch = get_from_dict(self.transition['terminal'])
         # Updating current data head
         self.transitions_head += self.minibatch_size
-        self.epoch_finished = self.transitions_head + self.drop_smaller_than_minibatch*self.minibatch_size >= self.transition_data_size
-        self.transitions_head_pos = self.transitions_head_pos % len(self.transition_indices_pos_last)
-        self.transitions_head_neg = self.transitions_head_neg % len(self.transition_indices_neg_last)
+        self.epoch_finished = self.transitions_head + self.drop_smaller_than_minibatch*self.minibatch_size >= self.data_size
         return s_minibatch, actions_minibatch, rewards_minibatch, next_s_minibatch, terminals_minibatch, self.epoch_finished
 
 
