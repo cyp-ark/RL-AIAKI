@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm.notebook import tqdm
+from tqdm import tqdm
 from datetime import timedelta
 import os, math
 
@@ -233,18 +233,7 @@ def cal_MAP(resample_DBP,resample_SBP):
 
 def cal_baseline_SCr(labevents,icustays,patients_gender,icustays_age,admissions_race) :
     admissions_black = admissions_race[['subject_id','BLACK']]
-
-    labevents_SCr = labevents[labevents['itemid'].isin([
-    50912, # Creatinine, Blood, Chemistry
-    52024, # Creatinine, Whole Blood, Blood, Chemistry
-    52546  # Creatinine, Blood, Chemistry
-    ])]
-
-    labevents_SCr = labevents_SCr[['subject_id','hadm_id','charttime','valuenum']]
-    labevents_SCr['charttime'] = pd.to_datetime(labevents_SCr['charttime'])
-
-    icustays['intime'] = pd.to_datetime(icustays['intime'])
-
+    labevents_SCr = labevents[['subject_id','hadm_id','charttime','valuenum']]
     rt = []
 
     for subject_id in tqdm(icustays.subject_id.unique()) : 
@@ -262,14 +251,14 @@ def cal_baseline_SCr(labevents,icustays,patients_gender,icustays_age,admissions_
             baseline_SCr = 0
             MDRD = 0
 
-            labevents_SCr_7days = tmp_labevents[(tmp_labevents['charttime'] < icustays_intime)&(tmp_labevents['charttime'] > icustays_intime_7days)&(~tmp_labevents['hadm_id'].isna())]['valuenum'].min()
-            labevents_SCr_1yr   = tmp_labevents[(tmp_labevents['charttime'] <= icustays_intime_7days)&(tmp_labevents['charttime'] > icustays_intime_1yr)&(~tmp_labevents['hadm_id'].isna())]['valuenum'].median()
+            labevents_SCr_7days = tmp_labevents[(tmp_labevents['charttime'] < icustays_intime)&(tmp_labevents['charttime'] > icustays_intime_7days)]
+            labevents_SCr_1yr   = tmp_labevents[(tmp_labevents['charttime'] <= icustays_intime_7days)&(tmp_labevents['charttime'] > icustays_intime_1yr)]
 
-            if not math.isnan(labevents_SCr_7days):
-                baseline_SCr = labevents_SCr_7days
+            if not labevents_SCr_7days.empty:
+                baseline_SCr = labevents_SCr_7days.valuenum.min()
                 MDRD = 1
-            elif not math.isnan(labevents_SCr_1yr):
-                baseline_SCr = labevents_SCr_1yr
+            elif not labevents_SCr_1yr.empty:
+                baseline_SCr = labevents_SCr_1yr.valuenum.median()
                 MDRD = 2
             else: 
                 baseline_SCr = (np.exp(5.228/1.154-0.203/1.154*np.log(age)-0.299/1.154*gender+0.192/1.154*black-np.log(75)/1.154)).round(1)
@@ -406,7 +395,7 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
             tmp = chartevents_[chartevents_['stay_id']==i]
             tmp_id = icustays[icustays['stay_id']==i][['subject_id','hadm_id','stay_id']].iloc[0].to_list()
             tmp_intime = icustays_intime[icustays_intime['stay_id']==i]
-            tmp_intime['charttime'] = tmp_intime['charttime'] - np.timedelta64(23,'H')
+            tmp_intime['charttime'] = tmp_intime['charttime'] - np.timedelta64(23,'h')
             tmp_outtime = icustays_outtime[icustays_outtime['stay_id']==i]
 
             tmp = pd.concat([tmp, tmp_intime, tmp_outtime, tmp_hosp])
@@ -426,8 +415,9 @@ def resample_labvalues(chartevents_,labevents_,icustays,valuename):
     rt = pd.concat(rt)
     rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
     rt = resample_ffill(rt)
-    rt.loc[~rt['valuenum'].isna(),'presense'+valuename] = 1
+    rt.loc[~rt['valuenum'].isna(),'presense_'+valuename] = 1
     rt.rename(columns={'valuenum':valuename},inplace=True)
+    rt.fillna(0,inplace=True)
     return rt
 
 def resample_vitals(chartevents_,icustays,valuename):
@@ -452,7 +442,9 @@ def resample_vitals(chartevents_,icustays,valuename):
         rt.append(tmp)
     rt = pd.concat(rt)
     rt = rt[['subject_id','hadm_id','stay_id','charttime','valuenum']]
-    rt = resample_fill(rt)
+    rt = resample_ffill(rt)
+    rt.loc[~rt['valuenum'].isna(),'presense_'+valuename] = 1
+    rt.fillna(0,inplace=True)
     rt.rename(columns={'valuenum':valuename},inplace=True)
     return rt
 
@@ -488,6 +480,8 @@ def AKI_UO_annotation(resample_uo,admission_weight):
         rolling_avg=resample_uo.groupby('stay_id').rolling(window=str(i)+'H', on='charttime',min_periods=i)['uo'].mean().reset_index()
         rolling_avg.rename(columns={'uo':'roll_%iH' % i},inplace=True)
         resample_uo = pd.merge(resample_uo,rolling_avg,on=['stay_id','charttime'],how='left')
+    resample_uo['presense_AKI_UO'] = 1
+    resample_uo.loc[resample_uo['roll_6H'].isna(),'presense_AKI_UO']=0
     df = pd.merge(resample_uo,admission_weight,on=['subject_id','stay_id'],how='left')
     df['6-12H_min'] = df[df.columns[6:13]].min(axis=1)/df['valuenum']
     df['12H-_min'] = df[df.columns[12:49]].min(axis=1)/df['valuenum']
@@ -497,7 +491,7 @@ def AKI_UO_annotation(resample_uo,admission_weight):
     df.loc[df['12H-_min']<0.5, 'AKI_UO'] = 2
     df.loc[df['12H-_min']==0, 'AKI_UO'] = 3
     df.loc[df['24H-_min']<0.3, 'AKI_UO'] = 3
-    df = df[['subject_id','hadm_id','stay_id','charttime','AKI_UO']]
+    df = df[['subject_id','hadm_id','stay_id','charttime','AKI_UO','presense_AKI_UO']]
     return df
 
 
@@ -505,6 +499,7 @@ def AKI_SCr_annotation(resample_SCr,baseline_SCr,resample_rrt):
     df = resample_SCr.copy()
     df = pd.merge(df,baseline_SCr,on=['subject_id','hadm_id','stay_id'],how='left')
     df = pd.merge(df,resample_rrt,on=['subject_id','hadm_id','stay_id','charttime'],how='left')
+    df.loc[df['presense_SCr']==0, 'SCr'] = np.nan
     SCr_48hrs_min = df.groupby('stay_id').rolling(window='48H', on='charttime')['SCr'].min().reset_index()
     SCr_48hrs_min.rename(columns={'SCr':'SCr_48hrs_min'},inplace=True)
     df = pd.merge(df,SCr_48hrs_min,on=['stay_id','charttime'],how='left')
@@ -513,5 +508,6 @@ def AKI_SCr_annotation(resample_SCr,baseline_SCr,resample_rrt):
     df.loc[((df['SCr']>=1.5*df['baseline_SCr'])&(df['SCr']<2.0*df['baseline_SCr']))|(df['SCr']>=0.3+df['SCr_48hrs_min']), 'AKI_SCr'] = 1
     df.loc[(df['SCr']>=2.0*df['baseline_SCr'])&(df['SCr']<3.0*df['baseline_SCr']), 'AKI_SCr'] = 2
     df.loc[(df['SCr']>=3.0*df['baseline_SCr'])|((df['SCr']>=0.3+df['SCr_48hrs_min'])&(df['SCr']>=4.0))|(df['RRT']>0), 'AKI_SCr'] = 3
-    df = df[['subject_id','hadm_id','stay_id','charttime','AKI_SCr']]
+    df['presense_AKI_SCr'] = df['presense_SCr']
+    df = df[['subject_id','hadm_id','stay_id','charttime','AKI_SCr','presense_SCr']]    
     return df

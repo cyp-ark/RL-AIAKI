@@ -1,14 +1,16 @@
 random_seed : 2345
-device : 'cuda'
+device : 'cuda:1'
 
-train : './data/train.parquet'
-val : './data/val.parquet'
+train : './code/train.parquet'
+val   : './code/val.parquet'
+test  : './code/test.parquet'
 
 minibatch_size : 64
 rolling_size : 24
 
+epoch : 200
 
-state_dim : 70
+state_dim : 125
 num_actions : 12
 n_units : 128
 gamma : 1

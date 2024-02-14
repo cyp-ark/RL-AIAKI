@@ -2,3 +2,4 @@
 *.csv.gz
 *.txt
 .DS_store
+*.pt
