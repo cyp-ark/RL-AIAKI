@@ -3,3 +3,4 @@
 *.txt
 .DS_store
 *.pt
+*.wandb
