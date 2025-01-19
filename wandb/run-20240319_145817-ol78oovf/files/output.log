@@ -1,0 +1,944 @@
+
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:10, 84.19it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:03, 88.69it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:02, 89.76it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:05, 87.41it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:03, 89.06it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:02, 89.69it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:05, 87.59it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:03, 88.83it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:01, 90.18it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:07, 85.99it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:01, 90.43it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:03, 89.18it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:04, 87.93it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 98%|█████████▊| 10135/10291 [01:52<00:01, 90.39it/s]
+[W 2024-03-19 15:28:37,311] Trial 0 failed with parameters: {'batch_size': 64, 'n_units': 8, 'learning_rate': 0.001, 'lr_decay': 1, 'lr_step': 5, 'negative_sampling': 6, 'loss': 'mse', 'update_freq': 8} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3326290597.py", line 29, in objective
+    auroc = train(batch_size,n_units,lr,lr_decay,lr_step,ns,loss,epochs,update_freq)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_10260\3235651154.py", line 43, in train
+    loss.backward()
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+[W 2024-03-19 15:28:37,313] Trial 0 failed with value None.
+[I 2024-03-19 15:28:39,136] A new study created in memory with name: no-name-2f0e984d-b2dc-4ab6-9d1e-31f58ea1300b

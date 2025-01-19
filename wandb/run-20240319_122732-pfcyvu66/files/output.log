@@ -1,0 +1,80 @@
+
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_46188\3389204729.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10983it [02:08, 85.52it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_46188\3389204729.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_46188\3389204729.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+[W 2024-03-19 12:30:09,030] Trial 0 failed with parameters: {'batch_size': 64, 'n_units': 4, 'learning_rate': 5e-05, 'lr_decay': 1, 'lr_step': 10, 'negative_sampling': 6, 'loss': 'smooth_l1', 'update_freq': 2} because of the following error: ValueError('too many values to unpack (expected 7)').
+Traceback (most recent call last):
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_46188\339626687.py", line 29, in objective
+    auroc = train(batch_size,n_units,lr,lr_decay,lr_step,ns,loss,epochs,update_freq)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_46188\3389204729.py", line 81, in train
+    for s,a,r1,r2,r3,m1,m2 in val_transition:
+ValueError: too many values to unpack (expected 7)
+[W 2024-03-19 12:30:09,031] Trial 0 failed with value None.
+[]

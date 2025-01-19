@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 88%|████████▊ | 4132/4683 [00:51<00:06, 80.95it/s]
+[W 2024-02-28 12:48:28,091] Trial 0 failed with parameters: {'batch_size': 128, 'n_units': 8, 'learning_rate': 0.0005} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_2396\1290458855.py", line 17, in objective
+    auroc = train(n_units,epochs,batch_size,lr)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_2396\264482817.py", line 40, in train
+    loss.backward()
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\torch\_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\torch\autograd\__init__.py", line 266, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+[W 2024-02-28 12:48:28,092] Trial 0 failed with value None.
+[I 2024-02-28 12:48:28,816] A new study created in memory with name: no-name-60af054b-e0f2-44a7-8081-4615eb38934c

@@ -1,0 +1,20 @@
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Configure stats pid to 10260
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Loading settings from C:\Users\CYP\.config\wandb\settings
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Loading settings from c:\Users\CYP\Documents\GitHub\AIAKI\wandb\settings
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-19 15:28:39,143 INFO    MainThread:10260 [wandb_init.py:_log_setup():526] Logging user logs to c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_152839-6f77mhb8\logs\debug.log
+2024-03-19 15:28:39,144 INFO    MainThread:10260 [wandb_init.py:_log_setup():527] Logging internal logs to c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_152839-6f77mhb8\logs\debug-internal.log
+2024-03-19 15:28:39,144 INFO    MainThread:10260 [wandb_init.py:init():566] calling init triggers
+2024-03-19 15:28:39,144 INFO    MainThread:10260 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'batch_size': 64, 'n_units': 2, 'learning_rate': 0.0001, 'lr_decay': 0.9, 'lr_step': 2, 'ns': 4, 'loss': 'mse'}
+2024-03-19 15:28:39,144 INFO    MainThread:10260 [wandb_init.py:init():591] re-initializing run, found existing run on stack: ol78oovf
+2024-03-19 15:28:39,145 INFO    MainThread:10260 [wandb_run.py:_finish():1970] finishing run dahs/IMV_LSTM_AKI_new/ol78oovf
+2024-03-19 15:28:39,145 ERROR   MainThread:10260 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-03-19 15:28:39,145 INFO    MainThread:10260 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-19 15:28:39,145 INFO    MainThread:10260 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-19 15:28:39,145 INFO    MainThread:10260 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-19 15:28:39,146 INFO    MainThread:10260 [wandb_run.py:_restore():2193] restore
+2024-03-19 15:28:39,146 INFO    MainThread:10260 [wandb_run.py:_restore():2199] restore done

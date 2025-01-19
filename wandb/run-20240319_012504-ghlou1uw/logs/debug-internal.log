@@ -1,0 +1,1052 @@
+2024-03-19 01:25:09,842 INFO    StreamThr :17332 [internal.py:wandb_internal():86] W&B internal server running at pid: 17332, started at: 2024-03-19 01:25:09.841178
+2024-03-19 01:25:09,844 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status
+2024-03-19 01:25:09,846 INFO    WriterThread:17332 [datastore.py:open_for_write():87] open: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\run-ghlou1uw.wandb
+2024-03-19 01:25:09,847 DEBUG   SenderThread:17332 [sender.py:send():382] send: header
+2024-03-19 01:25:09,847 DEBUG   SenderThread:17332 [sender.py:send():382] send: run
+2024-03-19 01:25:10,340 INFO    SenderThread:17332 [dir_watcher.py:__init__():211] watching files in: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files
+2024-03-19 01:25:10,340 INFO    SenderThread:17332 [sender.py:_start_run_threads():1136] run started: ghlou1uw with start time 1710779108.889477
+2024-03-19 01:25:10,355 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: check_version
+2024-03-19 01:25:10,355 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: check_version
+2024-03-19 01:25:10,385 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: run_start
+2024-03-19 01:25:10,412 DEBUG   HandlerThread:17332 [system_info.py:__init__():27] System info init
+2024-03-19 01:25:10,412 DEBUG   HandlerThread:17332 [system_info.py:__init__():42] System info init done
+2024-03-19 01:25:10,412 INFO    HandlerThread:17332 [system_monitor.py:start():194] Starting system monitor
+2024-03-19 01:25:10,412 INFO    SystemMonitor:17332 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-19 01:25:10,412 INFO    HandlerThread:17332 [system_monitor.py:probe():214] Collecting system info
+2024-03-19 01:25:10,415 INFO    SystemMonitor:17332 [interfaces.py:start():190] Started cpu monitoring
+2024-03-19 01:25:10,415 INFO    SystemMonitor:17332 [interfaces.py:start():190] Started disk monitoring
+2024-03-19 01:25:10,415 INFO    SystemMonitor:17332 [interfaces.py:start():190] Started gpu monitoring
+2024-03-19 01:25:10,416 INFO    SystemMonitor:17332 [interfaces.py:start():190] Started memory monitoring
+2024-03-19 01:25:10,439 INFO    SystemMonitor:17332 [interfaces.py:start():190] Started network monitoring
+2024-03-19 01:25:10,439 DEBUG   HandlerThread:17332 [system_info.py:probe():151] Probing system
+2024-03-19 01:25:10,440 DEBUG   HandlerThread:17332 [system_info.py:_probe_git():136] Probing git
+2024-03-19 01:25:10,483 DEBUG   HandlerThread:17332 [system_info.py:_probe_git():144] Probing git done
+2024-03-19 01:25:10,483 DEBUG   HandlerThread:17332 [system_info.py:probe():199] Probing system done
+2024-03-19 01:25:10,483 DEBUG   HandlerThread:17332 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.10.0', 'heartbeatAt': '2024-03-18T16:25:10.439442', 'startedAt': '2024-03-18T16:25:04.558232', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/cyp-ark/AIAKI.git', 'commit': '20640ccd9eb72fe1b3d98ef49928a16f757b1c79'}, 'email': 'chanreverse@gmail.com', 'root': 'C:/Users/CYP/Documents/GitHub/AIAKI', 'host': 'DESKTOP-5FSAP2U', 'username': 'cyp', 'executable': 'c:\\Users\\CYP\\anaconda3\\envs\\torch\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3600.0, 'min': 0.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 0.0, 'max': 3600.0}], 'disk': {'/': {'total': 464.9818687438965, 'used': 424.44226837158203}}, 'gpu': 'NVIDIA GeForce RTX 3080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3080', 'memory_total': 10737418240}], 'memory': {'total': 31.778884887695312}}
+2024-03-19 01:25:10,484 INFO    HandlerThread:17332 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-19 01:25:10,484 INFO    HandlerThread:17332 [system_monitor.py:probe():227] Publishing system info
+2024-03-19 01:25:10,484 DEBUG   HandlerThread:17332 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-19 01:25:10,485 ERROR   HandlerThread:17332 [system_info.py:_save_conda():219] Error saving conda packages: [WinError 2] 지정된 파일을 찾을 수 없습니다
+Traceback (most recent call last):
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 215, in _save_conda
+    subprocess.call(
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+2024-03-19 01:25:10,485 DEBUG   HandlerThread:17332 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-19 01:25:10,485 INFO    HandlerThread:17332 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-19 01:25:10,487 DEBUG   SenderThread:17332 [sender.py:send():382] send: files
+2024-03-19 01:25:10,487 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-19 01:25:10,494 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-19 01:25:10,494 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: python_packages
+2024-03-19 01:25:10,495 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:25:10,495 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:25:10,496 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:25:10,805 DEBUG   SenderThread:17332 [sender.py:send():382] send: telemetry
+2024-03-19 01:25:11,202 INFO    wandb-upload_0:17332 [upload_job.py:push():131] Uploaded file C:\Users\CYP\AppData\Local\Temp\tmpn5eb09juwandb\1x59m8zl-wandb-metadata.json
+2024-03-19 01:25:11,355 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-metadata.json
+2024-03-19 01:25:11,355 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\requirements.txt
+2024-03-19 01:25:11,355 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\conda-environment.yaml
+2024-03-19 01:25:15,849 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:20,873 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:25,500 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:25:25,500 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:25:25,501 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:25:26,744 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:31,775 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:36,786 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:39,465 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:40,511 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:25:40,511 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:25:40,511 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:25:41,480 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:42,126 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:42,482 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\config.yaml
+2024-03-19 01:25:43,485 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:45,492 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:47,374 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:47,502 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:49,509 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:51,515 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:52,433 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:53,525 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:55,505 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:25:55,505 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:25:55,505 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:25:55,536 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:57,438 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:25:57,547 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:25:59,556 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:01,564 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:02,527 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:03,572 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:05,578 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:07,585 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:07,623 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:09,594 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:10,449 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-19 01:26:10,449 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:26:10,509 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:26:10,524 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:26:10,526 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:26:11,603 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:12,629 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:13,614 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:15,622 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:17,631 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:17,653 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:19,651 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:23,530 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:25,517 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:26:25,532 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:26:25,532 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:26:25,603 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:26:25,757 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:26:25,757 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:26:25,758 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:26:26,771 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:26:27,801 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:28,533 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:29,835 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:31,869 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:33,613 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:33,903 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:35,942 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:37,978 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:38,676 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:40,019 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:40,457 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:26:40,519 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:26:40,547 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:26:40,547 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:26:41,029 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:43,063 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:43,804 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:45,094 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:47,127 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:48,835 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:49,158 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:51,185 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:53,231 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:53,846 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:55,269 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:55,524 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:26:55,557 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:26:55,557 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:26:57,303 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:26:58,919 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:26:59,348 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:01,390 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:03,438 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:04,189 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:07,200 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:27:07,200 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:27:07,200 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:27:07,201 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:27:07,505 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:27:09,292 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:09,538 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:10,466 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:27:10,527 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:27:10,571 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:27:10,571 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:27:11,577 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:13,617 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:14,386 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:15,655 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:17,700 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:19,409 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:19,740 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:21,777 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:23,798 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:24,500 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:25,534 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:27:25,579 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:27:25,580 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:27:25,834 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:27,872 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:29,523 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:29,908 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:31,931 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:33,971 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:34,622 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:36,007 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:38,046 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:39,675 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:40,070 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:40,475 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:27:40,550 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:27:40,594 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:27:40,594 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:27:42,098 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:44,130 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:45,640 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:47,366 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:27:47,367 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:27:47,367 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:27:47,368 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:27:48,208 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:27:50,247 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:50,645 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:51,279 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:53,312 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:55,333 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:55,551 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:27:55,611 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:27:55,611 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:27:55,815 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:27:57,367 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:27:59,400 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:00,915 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:01,422 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:03,454 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:05,491 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:05,995 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:07,530 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:09,570 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:10,484 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:28:10,559 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:28:10,619 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:28:10,619 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:28:11,069 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:11,607 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:13,655 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:15,688 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:16,111 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:17,729 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:19,766 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:21,539 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:21,807 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:25,565 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:28:25,639 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:28:25,639 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:28:26,892 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:27,434 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:28:27,434 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:28:27,434 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:28:27,435 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:28:27,917 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:28:29,952 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:31,992 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:31,993 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:34,032 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:36,068 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:36,999 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:38,107 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:40,144 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:40,490 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:28:40,565 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:28:40,641 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:28:40,641 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:28:42,052 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:42,182 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:44,234 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:46,268 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:47,083 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:48,307 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:50,351 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:52,170 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:52,394 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:54,431 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:55,568 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:28:55,657 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:28:55,658 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:28:56,467 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:28:57,197 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:28:58,505 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:00,537 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:02,449 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:02,581 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:04,619 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:07,486 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:08,685 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:29:08,686 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:29:08,686 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:29:08,687 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:29:08,687 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:29:09,691 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:29:10,491 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:29:10,581 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:29:10,671 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:29:10,671 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:29:10,712 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:12,577 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:12,751 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:14,799 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:16,835 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:17,674 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:18,873 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:20,926 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:22,730 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:22,981 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:25,027 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:25,593 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:29:25,683 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:29:25,684 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:29:27,064 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:27,866 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:29,089 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:31,131 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:32,137 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:32,958 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:34,174 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:36,211 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:38,049 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:38,268 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:40,307 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:40,503 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:29:40,608 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:29:40,697 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:29:40,697 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:29:42,348 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:44,025 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:44,372 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:47,749 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:29:47,750 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:29:47,750 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:29:47,750 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:29:48,435 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:48,435 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:29:49,310 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:50,462 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:52,497 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:54,350 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:29:54,534 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:55,611 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:29:55,716 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:29:55,716 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:29:56,572 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:58,609 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:29:59,388 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:00,648 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:02,684 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:04,524 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:04,721 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:06,756 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:08,796 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:09,562 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:10,504 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:30:10,624 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:30:10,729 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:30:10,729 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:30:10,848 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:12,885 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:14,640 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:14,910 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:16,947 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:18,969 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:19,715 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:21,008 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:23,036 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:25,080 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:25,231 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:25,639 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:30:25,743 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:30:25,743 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:30:28,303 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:30:28,303 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:30:28,304 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:30:28,304 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:30:29,147 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:30:30,293 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:31,173 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:33,211 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:35,248 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:35,315 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:37,301 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:39,339 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:40,325 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:40,510 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:30:40,644 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:30:40,749 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:30:40,749 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:30:41,363 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:43,400 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:44,427 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:45,357 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:46,451 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:48,479 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:50,366 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:50,511 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:52,550 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:54,587 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:55,384 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:30:55,654 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:30:55,773 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:30:55,773 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:30:56,628 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:30:58,664 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:00,458 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:00,705 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:02,749 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:04,782 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:05,535 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:08,496 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:31:08,496 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:31:08,497 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:31:08,497 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:31:08,861 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:08,862 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:31:10,514 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:31:10,625 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:10,664 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:31:10,769 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:31:10,769 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:31:10,901 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:12,941 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:14,975 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:15,740 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:17,029 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:19,046 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:20,848 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:21,089 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:23,125 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:25,172 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:25,676 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:31:25,782 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:31:25,782 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:31:26,055 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:27,204 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:29,251 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:31,152 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:31,309 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:33,335 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:35,370 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:36,229 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:37,397 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:39,439 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:40,519 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:31:40,684 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:31:40,803 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:31:40,803 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:31:41,320 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:41,476 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:43,511 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:45,538 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:46,475 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:49,242 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:31:49,242 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:31:49,242 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:31:49,243 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:31:49,601 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:31:51,562 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:51,633 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:53,674 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:55,709 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:31:55,710 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:55,817 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:31:55,818 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:31:56,651 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:31:57,751 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:31:59,795 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:00,810 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:01,662 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:02,832 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:04,875 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:06,719 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:06,916 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:08,941 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:10,520 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:32:10,699 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:32:10,819 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:32:10,819 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:32:10,984 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:11,819 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:13,039 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:15,066 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:16,829 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:17,106 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:19,160 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:21,189 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:21,870 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:23,230 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:25,263 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:25,702 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:32:25,822 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:32:25,822 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:32:27,117 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:30,215 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:32:30,216 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:32:30,216 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:32:30,217 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:32:30,379 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:32:31,390 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:32,217 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:33,421 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:35,459 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:37,324 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:37,497 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:39,536 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:40,524 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:32:40,704 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:32:40,840 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:32:40,840 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:32:41,577 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:42,412 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:43,619 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:45,649 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:47,473 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:47,690 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:49,747 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:51,769 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:52,569 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:53,807 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:55,710 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:32:55,845 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:32:55,845 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:32:55,847 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:57,572 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:32:57,885 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:32:59,928 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:01,971 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:02,670 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:04,014 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:06,054 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:07,914 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:08,082 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:10,527 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:33:10,721 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:33:10,857 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:33:10,857 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:33:12,340 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:33:12,340 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:33:12,341 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:33:12,341 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:33:13,175 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:13,175 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:33:13,346 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:15,216 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:17,258 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:18,438 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:19,312 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:21,340 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:23,379 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:23,504 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:25,416 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:25,729 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:33:25,879 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:33:25,880 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:33:27,446 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:28,513 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:29,481 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:31,521 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:33,566 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:33,567 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:35,596 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:37,631 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:38,569 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:39,676 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:40,538 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:33:40,733 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:33:40,883 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:33:40,883 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:33:41,704 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:43,611 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:43,750 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:45,782 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:47,824 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:49,109 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:53,319 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:33:53,319 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:33:53,320 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:33:53,320 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:33:53,937 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:33:54,321 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:33:55,733 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:33:55,883 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:33:55,883 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:33:55,979 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:58,014 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:33:59,419 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:00,049 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:02,081 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:04,125 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:04,442 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:06,162 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:08,197 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:09,445 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:10,237 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:10,541 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:34:10,735 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:34:10,885 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:34:10,885 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:34:12,276 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:14,314 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:14,497 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:16,350 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:18,384 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:19,564 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:20,417 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:22,453 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:24,500 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:24,572 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:25,741 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:34:25,906 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:34:25,906 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:34:26,528 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:27,542 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:29,578 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:29,713 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:33,859 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:34:33,859 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:34:33,859 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:34:33,861 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:34:34,673 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:34:34,870 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:35,686 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:37,714 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:39,753 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:39,971 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:40,547 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:34:40,742 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:34:40,907 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:34:40,907 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:34:41,792 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:43,821 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:45,009 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:45,849 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:47,891 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:49,930 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:50,011 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:51,982 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:54,004 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:55,117 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:34:55,744 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:34:55,924 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:34:55,924 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:34:56,045 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:34:58,088 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:00,130 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:00,194 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:02,166 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:04,220 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:05,239 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:06,242 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:08,280 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:10,303 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:10,318 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:10,560 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:35:10,753 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:35:10,919 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:35:10,919 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:35:14,513 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:35:14,513 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:35:14,513 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:35:14,514 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:35:15,406 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:35:15,514 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:16,416 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:18,445 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:20,487 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:20,605 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:22,536 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:24,558 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:25,680 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:25,757 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:35:25,936 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:35:25,936 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:35:26,595 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:28,630 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:30,666 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:30,726 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:32,703 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:34,727 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:35,801 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:36,767 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:38,805 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:40,573 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:35:40,769 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:35:40,860 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:40,860 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:40,949 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:35:40,949 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:35:42,881 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:43,912 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:45,869 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:45,950 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:48,004 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:50,032 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:50,898 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:54,124 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:35:54,125 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:35:54,125 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:35:54,126 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:35:55,106 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:35:55,773 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:35:55,900 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:35:55,968 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:35:55,968 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:35:56,127 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:35:58,170 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:00,202 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:00,937 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:02,234 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:04,266 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:05,977 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:06,300 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:08,331 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:10,361 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:10,578 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:36:10,787 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:36:10,981 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:36:10,981 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:36:11,405 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:12,402 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:14,442 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:16,478 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:16,478 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:18,518 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:20,555 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:21,485 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:22,601 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:24,634 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:25,800 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:36:25,994 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:36:25,994 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:36:26,530 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:26,674 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:28,718 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:32,517 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:33,661 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:36:33,662 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:36:33,662 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:36:33,662 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:36:33,780 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:36:34,810 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:36,853 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:37,612 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:38,891 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:40,585 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:36:40,810 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:36:40,927 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:41,020 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:36:41,020 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:36:42,612 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:42,970 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:45,011 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:47,045 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:47,686 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:49,081 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:51,117 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:52,701 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:53,170 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:55,187 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:55,823 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:36:56,033 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:36:56,033 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:36:57,215 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:36:57,795 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:36:59,250 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:00,257 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:02,294 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:02,851 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:04,332 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:06,371 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:07,942 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:08,410 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:10,447 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:10,599 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:37:10,824 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:37:11,036 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:37:11,036 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:37:13,264 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:14,217 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:37:14,217 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:37:14,218 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:37:14,218 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:37:14,524 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:37:16,566 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:18,337 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:18,603 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:20,642 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:22,678 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:23,405 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:24,730 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:25,838 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:37:26,048 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:37:26,048 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:37:26,751 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:28,433 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:28,791 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:30,829 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:32,882 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:33,516 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:34,919 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:36,954 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:38,549 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:38,982 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:40,600 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:37:40,839 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:37:41,020 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:41,049 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:37:41,050 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:37:43,061 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:43,628 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:45,101 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:47,141 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:48,792 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:49,180 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:51,215 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:53,835 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:55,092 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:37:55,092 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:37:55,092 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:37:55,093 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:37:55,307 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:37:55,846 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:37:56,056 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:37:56,056 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:37:57,369 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:37:58,934 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:37:59,391 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:01,430 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:03,472 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:03,997 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:05,511 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:07,550 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:08,587 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:09,097 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:10,616 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:38:10,616 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:10,847 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:38:11,059 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:38:11,059 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:38:12,659 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:14,149 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:14,696 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:16,733 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:18,773 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:19,251 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:20,812 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:22,852 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:24,308 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:24,903 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:25,849 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:38:26,075 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:38:26,075 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:38:26,934 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:28,967 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:29,351 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:30,993 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:33,027 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:34,950 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:36,836 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:38:36,837 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:38:36,837 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:38:36,838 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:38:37,089 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:38:39,119 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:39,956 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:40,623 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:38:40,864 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:38:41,090 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:38:41,090 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:38:41,141 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:43,169 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:45,043 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:45,191 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:47,213 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:49,238 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:50,062 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:51,273 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:53,305 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:55,166 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:38:55,338 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:55,869 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:38:56,101 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:38:56,101 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:38:57,376 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:38:59,412 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:00,183 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:01,447 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:03,491 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:05,208 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:05,527 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:07,565 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:09,606 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:10,296 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:10,634 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:39:10,874 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:39:11,098 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:39:11,098 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:39:11,634 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:13,665 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:15,355 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:17,041 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:39:17,042 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:39:17,042 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:39:17,042 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:39:17,734 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:39:19,775 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:20,389 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:21,804 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:23,849 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:25,418 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:25,888 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:39:25,892 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:26,095 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:39:26,095 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:39:27,919 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:29,958 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:30,460 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:30,963 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:32,999 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:35,033 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:35,478 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:37,069 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:39,104 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:40,571 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:40,645 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:39:40,900 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:39:41,094 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-19 01:39:41,094 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: stop_status
+2024-03-19 01:39:41,139 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:43,175 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:45,211 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:45,675 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:47,244 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:49,293 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:51,029 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:53,921 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-19 01:39:53,922 DEBUG   SenderThread:17332 [sender.py:send():382] send: history
+2024-03-19 01:39:53,922 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: summary_record
+2024-03-19 01:39:53,922 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:39:54,052 DEBUG   SenderThread:17332 [sender.py:send():382] send: telemetry
+2024-03-19 01:39:54,053 DEBUG   SenderThread:17332 [sender.py:send():382] send: exit
+2024-03-19 01:39:54,054 INFO    SenderThread:17332 [sender.py:send_exit():589] handling exit code: 0
+2024-03-19 01:39:54,054 INFO    SenderThread:17332 [sender.py:send_exit():591] handling runtime: 883
+2024-03-19 01:39:54,054 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:39:54,054 INFO    SenderThread:17332 [sender.py:send_exit():597] send defer
+2024-03-19 01:39:54,054 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,054 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-19 01:39:54,054 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,055 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-19 01:39:54,055 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 1
+2024-03-19 01:39:54,055 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,055 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-19 01:39:54,055 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,055 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-19 01:39:54,055 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 2
+2024-03-19 01:39:54,055 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,055 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-19 01:39:54,055 INFO    HandlerThread:17332 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-19 01:39:54,055 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-19 01:39:54,055 DEBUG   SystemMonitor:17332 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-19 01:39:54,055 INFO    HandlerThread:17332 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-19 01:39:54,059 INFO    HandlerThread:17332 [interfaces.py:finish():202] Joined disk monitor
+2024-03-19 01:39:54,078 INFO    HandlerThread:17332 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-19 01:39:54,078 INFO    HandlerThread:17332 [interfaces.py:finish():202] Joined memory monitor
+2024-03-19 01:39:54,078 INFO    HandlerThread:17332 [interfaces.py:finish():202] Joined network monitor
+2024-03-19 01:39:54,079 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 3
+2024-03-19 01:39:54,079 DEBUG   SenderThread:17332 [sender.py:send():382] send: stats
+2024-03-19 01:39:54,079 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,079 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-19 01:39:54,079 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 4
+2024-03-19 01:39:54,079 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,079 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-19 01:39:54,079 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-19 01:39:54,079 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 5
+2024-03-19 01:39:54,080 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,080 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-19 01:39:54,080 DEBUG   SenderThread:17332 [sender.py:send():382] send: summary
+2024-03-19 01:39:54,080 INFO    SenderThread:17332 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-19 01:39:54,080 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,080 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-19 01:39:54,080 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 6
+2024-03-19 01:39:54,080 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,080 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-19 01:39:54,081 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,081 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-19 01:39:54,083 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: status_report
+2024-03-19 01:39:54,315 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 7
+2024-03-19 01:39:54,315 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:54,315 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-19 01:39:54,315 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:54,315 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-19 01:39:54,372 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\config.yaml
+2024-03-19 01:39:54,373 INFO    Thread-31 :17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:39:55,028 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 8
+2024-03-19 01:39:55,028 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:55,028 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-19 01:39:55,028 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:55,028 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-19 01:39:55,028 INFO    SenderThread:17332 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-19 01:39:55,029 INFO    SenderThread:17332 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-19 01:39:55,029 INFO    SenderThread:17332 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-03-19 01:39:55,029 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 9
+2024-03-19 01:39:55,029 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:55,030 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-19 01:39:55,030 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:55,030 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-19 01:39:55,030 INFO    SenderThread:17332 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-19 01:39:55,057 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-19 01:39:55,382 INFO    SenderThread:17332 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:55,383 INFO    SenderThread:17332 [dir_watcher.py:finish():388] scan: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files
+2024-03-19 01:39:55,384 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\conda-environment.yaml conda-environment.yaml
+2024-03-19 01:39:55,384 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\config.yaml config.yaml
+2024-03-19 01:39:55,385 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log output.log
+2024-03-19 01:39:55,388 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\requirements.txt requirements.txt
+2024-03-19 01:39:55,390 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-metadata.json wandb-metadata.json
+2024-03-19 01:39:55,391 INFO    SenderThread:17332 [dir_watcher.py:finish():402] scan save: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json wandb-summary.json
+2024-03-19 01:39:55,393 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 10
+2024-03-19 01:39:55,393 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: poll_exit
+2024-03-19 01:39:55,393 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:55,393 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-19 01:39:55,395 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:55,395 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-19 01:39:55,395 INFO    SenderThread:17332 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-19 01:39:55,926 INFO    wandb-upload_0:17332 [upload_job.py:push():131] Uploaded file c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\config.yaml
+2024-03-19 01:39:55,927 INFO    wandb-upload_3:17332 [upload_job.py:push():131] Uploaded file c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\wandb-summary.json
+2024-03-19 01:39:55,927 INFO    wandb-upload_1:17332 [upload_job.py:push():131] Uploaded file c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\output.log
+2024-03-19 01:39:55,927 INFO    wandb-upload_2:17332 [upload_job.py:push():131] Uploaded file c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\files\requirements.txt
+2024-03-19 01:39:56,062 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-19 01:39:56,062 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: poll_exit
+2024-03-19 01:39:56,138 INFO    Thread-30 (_thread_body):17332 [sender.py:transition_state():617] send defer: 11
+2024-03-19 01:39:56,140 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:56,140 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-19 01:39:56,142 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:56,142 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-19 01:39:56,143 INFO    SenderThread:17332 [file_pusher.py:join():178] waiting for file pusher
+2024-03-19 01:39:56,145 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 12
+2024-03-19 01:39:56,146 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:56,146 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-19 01:39:56,147 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:56,148 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-19 01:39:56,148 INFO    SenderThread:17332 [file_stream.py:finish():595] file stream finish called
+2024-03-19 01:39:57,004 INFO    SenderThread:17332 [file_stream.py:finish():599] file stream finish is done
+2024-03-19 01:39:57,005 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 13
+2024-03-19 01:39:57,005 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:57,006 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-19 01:39:57,007 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:57,007 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-19 01:39:57,007 INFO    SenderThread:17332 [sender.py:transition_state():617] send defer: 14
+2024-03-19 01:39:57,008 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: defer
+2024-03-19 01:39:57,009 INFO    HandlerThread:17332 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-19 01:39:57,009 DEBUG   SenderThread:17332 [sender.py:send():382] send: final
+2024-03-19 01:39:57,010 DEBUG   SenderThread:17332 [sender.py:send():382] send: footer
+2024-03-19 01:39:57,011 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: defer
+2024-03-19 01:39:57,011 INFO    SenderThread:17332 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-19 01:39:57,012 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-19 01:39:57,013 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: poll_exit
+2024-03-19 01:39:57,014 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-19 01:39:57,015 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: server_info
+2024-03-19 01:39:57,015 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: server_info
+2024-03-19 01:39:57,015 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-19 01:39:57,019 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-19 01:39:57,019 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: job_info
+2024-03-19 01:39:57,232 DEBUG   SenderThread:17332 [sender.py:send_request():409] send_request: job_info
+2024-03-19 01:39:57,234 DEBUG   HandlerThread:17332 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-19 01:39:57,235 INFO    HandlerThread:17332 [handler.py:finish():869] shutting down handler
+2024-03-19 01:39:58,029 INFO    WriterThread:17332 [datastore.py:close():296] close: c:\Users\CYP\Documents\GitHub\AIAKI\wandb\run-20240319_012504-ghlou1uw\run-ghlou1uw.wandb
+2024-03-19 01:39:58,243 INFO    SenderThread:17332 [sender.py:finish():1572] shutting down sender
+2024-03-19 01:39:58,244 INFO    SenderThread:17332 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-19 01:39:58,245 INFO    SenderThread:17332 [file_pusher.py:join():178] waiting for file pusher

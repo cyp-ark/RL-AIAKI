@@ -1,0 +1,1362 @@
+
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:09, 88.10it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:08, 88.19it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:04, 91.56it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:02, 93.01it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:01, 93.25it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:59, 95.33it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:03, 92.34it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:59, 95.02it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:59, 95.36it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:02, 92.69it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:59, 95.41it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 95.95it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:05, 90.62it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 95.86it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:72: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)
+  2%|▏         | 199/10291 [00:03<01:46, 95.09it/s]
+  3%|▎         | 352/10291 [00:05<01:43, 95.61it/s]
+  5%|▌         | 545/10291 [00:07<01:42, 94.65it/s]
+  7%|▋         | 739/10291 [00:09<01:38, 97.41it/s]
+  9%|▉         | 932/10291 [00:11<01:49, 85.67it/s]
+ 11%|█         | 1132/10291 [00:13<01:32, 99.21it/s]
+ 13%|█▎        | 1334/10291 [00:15<01:27, 102.33it/s]
+ 15%|█▍        | 1536/10291 [00:17<01:33, 93.32it/s]
+ 17%|█▋        | 1752/10291 [00:19<01:21, 104.32it/s]
+ 19%|█▉        | 1935/10291 [00:21<01:31, 91.45it/s]
+ 21%|██        | 2137/10291 [00:23<01:17, 104.64it/s]
+ 23%|██▎       | 2347/10291 [00:25<01:17, 102.47it/s]
+ 25%|██▍       | 2557/10291 [00:27<01:12, 105.95it/s]
+ 26%|██▌       | 2690/10291 [00:29<01:28, 85.62it/s]
+ 28%|██▊       | 2862/10291 [00:31<01:25, 86.82it/s]
+ 30%|██▉       | 3046/10291 [00:33<01:23, 86.32it/s]
+ 31%|███▏      | 3219/10291 [00:35<01:19, 88.98it/s]
+ 33%|███▎      | 3420/10291 [00:37<01:06, 103.03it/s]
+ 35%|███▌      | 3629/10291 [00:39<01:05, 102.15it/s]
+ 37%|███▋      | 3838/10291 [00:41<01:02, 103.00it/s]
+ 39%|███▉      | 4046/10291 [00:43<01:00, 103.78it/s]
+ 41%|████      | 4242/10291 [00:45<01:05, 92.43it/s]
+ 43%|████▎     | 4430/10291 [00:47<01:06, 87.99it/s]
+ 45%|████▍     | 4610/10291 [00:49<01:06, 85.81it/s]
+ 46%|████▋     | 4779/10291 [00:51<01:08, 80.90it/s]
+ 48%|████▊     | 4962/10291 [00:53<00:59, 90.30it/s]
+ 50%|████▉     | 5100/10291 [00:55<00:59, 87.67it/s]
+ 51%|█████▏    | 5275/10291 [00:57<00:54, 91.88it/s]
+ 53%|█████▎    | 5464/10291 [00:59<00:52, 91.49it/s]
+ 55%|█████▍    | 5655/10291 [01:01<00:47, 97.35it/s]
+ 57%|█████▋    | 5854/10291 [01:03<00:45, 96.99it/s]
+ 59%|█████▉    | 6053/10291 [01:05<00:43, 97.74it/s]
+ 61%|██████    | 6252/10291 [01:07<00:41, 96.84it/s]
+ 63%|██████▎   | 6457/10291 [01:09<00:38, 100.40it/s]
+ 65%|██████▍   | 6666/10291 [01:11<00:34, 105.70it/s]
+ 67%|██████▋   | 6889/10291 [01:13<00:31, 106.65it/s]
+ 69%|██████▉   | 7102/10291 [01:15<00:32, 97.28it/s]
+ 71%|███████   | 7268/10291 [01:17<00:35, 84.65it/s]
+ 72%|███████▏  | 7440/10291 [01:19<00:33, 84.84it/s]
+ 74%|███████▎  | 7575/10291 [01:21<00:32, 83.60it/s]
+ 75%|███████▌  | 7761/10291 [01:23<00:24, 102.41it/s]
+ 78%|███████▊  | 7981/10291 [01:25<00:22, 102.54it/s]
+ 80%|███████▉  | 8189/10291 [01:27<00:20, 103.10it/s]
+ 82%|████████▏ | 8398/10291 [01:29<00:18, 103.10it/s]
+ 84%|████████▎ | 8607/10291 [01:31<00:16, 104.99it/s]
+ 86%|████████▌ | 8816/10291 [01:33<00:13, 105.36it/s]
+ 88%|████████▊ | 9036/10291 [01:35<00:12, 103.77it/s]
+ 90%|████████▉ | 9245/10291 [01:37<00:09, 105.04it/s]
+ 92%|█████████▏| 9454/10291 [01:39<00:08, 102.83it/s]
+ 94%|█████████▍| 9657/10291 [01:41<00:06, 93.95it/s]
+ 96%|█████████▌| 9866/10291 [01:44<00:04, 103.58it/s]
+ 98%|█████████▊| 10075/10291 [01:46<00:02, 104.22it/s]
+ 99%|█████████▉| 10226/10291 [01:47<00:00, 102.76it/s]
+10447it [01:49, 103.98it/s]
+10656it [01:51, 104.05it/s]
+10842it [01:53, 91.17it/s]
+11035it [01:55, 98.38it/s]
+11240it [01:57, 100.43it/s]
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.
+  0%|          | 0/10291 [00:00<?, ?it/s]smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.
+  2%|▏         | 174/10291 [00:03<01:41, 99.69it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 331/10291 [00:04<01:40, 99.47it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▌         | 523/10291 [00:06<01:42, 95.59it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 716/10291 [00:09<01:43, 92.32it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▉         | 911/10291 [00:11<01:34, 98.81it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1112/10291 [00:13<01:34, 96.82it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1304/10291 [00:15<01:32, 97.57it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▍        | 1509/10291 [00:17<01:28, 99.51it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▋        | 1675/10291 [00:19<01:44, 82.82it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1829/10291 [00:21<01:41, 83.10it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|█▉        | 2009/10291 [00:23<01:38, 83.89it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2180/10291 [00:25<01:38, 81.95it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 23%|██▎       | 2350/10291 [00:27<01:36, 82.18it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2476/10291 [00:28<01:34, 82.38it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2638/10291 [00:30<01:32, 82.96it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2820/10291 [00:33<01:26, 86.60it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 2994/10291 [00:35<01:22, 88.65it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3167/10291 [00:37<01:22, 86.61it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3349/10291 [00:39<01:18, 87.95it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3525/10291 [00:41<01:15, 89.99it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3713/10291 [00:43<01:14, 88.73it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3889/10291 [00:45<01:12, 88.79it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|███▉      | 4069/10291 [00:47<01:08, 91.17it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4276/10291 [00:49<00:59, 101.80it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▎     | 4481/10291 [00:51<00:57, 101.03it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▌     | 4631/10291 [00:53<00:56, 99.39it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4835/10291 [00:55<00:53, 101.42it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5034/10291 [00:57<00:57, 91.79it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5218/10291 [00:59<00:53, 94.51it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5411/10291 [01:01<00:52, 92.63it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▍    | 5601/10291 [01:03<00:50, 92.12it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▋    | 5792/10291 [01:05<00:49, 90.37it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 5983/10291 [01:07<00:46, 92.80it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|█████▉    | 6174/10291 [01:09<00:44, 92.55it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6365/10291 [01:11<00:41, 95.37it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▎   | 6559/10291 [01:13<00:37, 100.09it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▌   | 6711/10291 [01:15<00:36, 98.71it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 67%|██████▋   | 6919/10291 [01:17<00:34, 98.85it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 69%|██████▉   | 7127/10291 [01:19<00:33, 95.15it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████   | 7325/10291 [01:21<00:28, 103.47it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7544/10291 [01:23<00:28, 97.90it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7764/10291 [01:25<00:23, 106.47it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7973/10291 [01:27<00:22, 102.73it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8178/10291 [01:29<00:21, 97.76it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8387/10291 [01:31<00:18, 101.70it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▎ | 8594/10291 [01:33<00:16, 101.81it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8803/10291 [01:35<00:14, 102.38it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 88%|████████▊ | 9012/10291 [01:37<00:12, 104.37it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 90%|████████▉ | 9221/10291 [01:39<00:10, 102.33it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9386/10291 [01:41<00:08, 102.20it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9595/10291 [01:43<00:07, 99.18it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▌| 9804/10291 [01:45<00:04, 103.83it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 10013/10291 [01:47<00:02, 101.35it/s]s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▉| 10205/10291 [01:49<00:00, 93.17it/s] s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10399it [01:51, 97.04it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10601it [01:53, 97.35it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10794it [01:55, 95.36it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10998it [01:57, 93.79it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11189it [01:59, 93.77it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11373it [02:01, 96.08it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 49/10291 [00:02<03:26, 49.69it/s] loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  2%|▏         | 247/10291 [00:04<01:41, 98.48it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 454/10291 [00:06<01:43, 94.65it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▌         | 633/10291 [00:08<01:50, 87.45it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 817/10291 [00:10<01:39, 95.45it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|▉         | 1026/10291 [00:12<01:31, 100.99it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1235/10291 [00:14<01:27, 103.06it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▍        | 1431/10291 [00:16<01:44, 84.48it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1602/10291 [00:18<01:43, 83.69it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1774/10291 [00:20<01:41, 83.67it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▉        | 1936/10291 [00:22<01:43, 80.95it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2111/10291 [00:24<01:26, 94.50it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2276/10291 [00:26<01:18, 102.07it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2474/10291 [00:28<01:17, 100.84it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2683/10291 [00:30<01:15, 101.31it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2891/10291 [00:32<01:14, 99.24it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|███       | 3098/10291 [00:34<01:12, 99.20it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3294/10291 [00:36<01:11, 98.05it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3494/10291 [00:38<01:10, 96.57it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3691/10291 [00:40<01:10, 93.58it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3881/10291 [00:42<01:06, 96.21it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|███▉      | 4071/10291 [00:44<01:08, 91.22it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4274/10291 [00:46<01:03, 95.39it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4415/10291 [00:48<01:02, 93.81it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4606/10291 [00:50<01:00, 93.44it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4797/10291 [00:52<00:59, 92.26it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4978/10291 [00:54<00:58, 90.43it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 50%|█████     | 5180/10291 [00:56<00:54, 94.14it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5388/10291 [00:58<00:50, 97.92it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▍    | 5593/10291 [01:00<00:48, 96.41it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▋    | 5803/10291 [01:02<00:43, 102.49it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 5999/10291 [01:04<00:46, 92.61it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|██████    | 6176/10291 [01:06<00:47, 86.55it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6361/10291 [01:08<00:43, 89.90it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▎   | 6552/10291 [01:10<00:36, 101.82it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▌   | 6704/10291 [01:12<00:34, 104.52it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 67%|██████▋   | 6913/10291 [01:14<00:32, 103.11it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 69%|██████▉   | 7122/10291 [01:16<00:31, 100.35it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████   | 7331/10291 [01:18<00:29, 101.79it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7540/10291 [01:20<00:26, 102.59it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7748/10291 [01:22<00:24, 103.28it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7965/10291 [01:24<00:22, 101.81it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8175/10291 [01:26<00:21, 98.75it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8379/10291 [01:28<00:20, 91.42it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8582/10291 [01:30<00:17, 100.46it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▌ | 8779/10291 [01:32<00:15, 94.81it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8984/10291 [01:34<00:12, 103.49it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9136/10291 [01:36<00:11, 100.06it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9342/10291 [01:38<00:09, 99.16it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9542/10291 [01:40<00:07, 94.11it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▍| 9740/10291 [01:42<00:05, 97.74it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 9933/10291 [01:44<00:04, 86.51it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10109/10291 [01:46<00:02, 84.04it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+100%|█████████▉| 10289/10291 [01:48<00:00, 86.52it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10467it [01:50, 89.87it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10658it [01:52, 101.02it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10867it [01:54, 101.44it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11076it [01:56, 100.89it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11286it [01:58, 103.89it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 1/10291 [00:01<4:18:57,  1.51s/it]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  2%|▏         | 190/10291 [00:03<01:43, 97.40it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 394/10291 [00:05<01:42, 96.91it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▌         | 591/10291 [00:07<01:39, 97.61it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 797/10291 [00:09<01:38, 96.27it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|▉         | 989/10291 [00:11<01:40, 92.42it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█▏        | 1180/10291 [00:13<01:37, 93.92it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1371/10291 [00:15<01:32, 96.45it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▌        | 1571/10291 [00:17<01:32, 94.08it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1763/10291 [00:19<01:30, 94.75it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▊        | 1904/10291 [00:21<01:30, 92.28it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|██        | 2094/10291 [00:23<01:30, 90.79it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2283/10291 [00:25<01:26, 92.19it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2488/10291 [00:27<01:14, 104.47it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2698/10291 [00:29<01:13, 103.89it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2909/10291 [00:31<01:11, 103.08it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|███       | 3115/10291 [00:33<01:10, 101.31it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3304/10291 [00:35<01:18, 88.79it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3490/10291 [00:37<01:18, 87.15it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3667/10291 [00:39<01:15, 88.10it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 37%|███▋      | 3845/10291 [00:41<01:14, 86.14it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 39%|███▉      | 4057/10291 [00:44<00:59, 104.75it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 41%|████      | 4211/10291 [00:45<01:00, 100.98it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4420/10291 [00:47<00:56, 104.71it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4629/10291 [00:49<00:54, 103.13it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4827/10291 [00:51<00:58, 94.01it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5020/10291 [00:53<00:54, 97.25it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5224/10291 [00:55<00:52, 96.05it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5427/10291 [00:57<00:51, 94.64it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▍    | 5619/10291 [00:59<00:48, 96.15it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▋    | 5811/10291 [01:02<00:47, 94.63it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 6003/10291 [01:04<00:45, 94.42it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|██████    | 6201/10291 [01:06<00:39, 103.09it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6421/10291 [01:08<00:37, 104.10it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▍   | 6630/10291 [01:10<00:35, 104.02it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▋   | 6839/10291 [01:12<00:33, 103.24it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7049/10291 [01:14<00:31, 103.60it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|██████▉   | 7201/10291 [01:15<00:33, 92.50it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7397/10291 [01:17<00:29, 98.66it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 74%|███████▍  | 7603/10291 [01:19<00:25, 103.67it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 76%|███████▌  | 7792/10291 [01:21<00:25, 98.67it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 78%|███████▊  | 8003/10291 [01:24<00:21, 106.39it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 80%|███████▉  | 8224/10291 [01:26<00:19, 106.64it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 82%|████████▏ | 8445/10291 [01:28<00:17, 106.34it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▍ | 8656/10291 [01:30<00:15, 104.22it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8865/10291 [01:32<00:13, 102.52it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 88%|████████▊ | 9085/10291 [01:34<00:11, 104.04it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 90%|█████████ | 9271/10291 [01:36<00:11, 90.75it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 92%|█████████▏| 9467/10291 [01:38<00:08, 99.51it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 94%|█████████▍| 9660/10291 [01:40<00:06, 94.87it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▌| 9867/10291 [01:42<00:04, 97.05it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10073/10291 [01:44<00:02, 98.64it/s] s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▉| 10220/10291 [01:46<00:00, 98.70it/s] s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10420it [01:48, 97.56it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10622it [01:50, 98.76it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10819it [01:52, 96.95it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11014it [01:54, 93.92it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11207it [01:56, 88.28it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11376it [01:58, 91.71it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  1%|          | 109/10291 [00:02<02:04, 81.68it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 284/10291 [00:04<01:53, 88.00it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 452/10291 [00:06<02:00, 81.65it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▌         | 612/10291 [00:08<02:02, 78.95it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 774/10291 [00:10<02:00, 78.91it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▉         | 934/10291 [00:12<01:54, 81.74it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|█         | 1059/10291 [00:14<01:54, 80.81it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1240/10291 [00:16<01:42, 88.46it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▎        | 1413/10291 [00:18<01:43, 85.92it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1597/10291 [00:20<01:37, 89.26it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1771/10291 [00:22<01:38, 86.13it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▉        | 1944/10291 [00:24<01:42, 81.12it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2113/10291 [00:26<01:41, 80.84it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2284/10291 [00:28<01:35, 84.03it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2446/10291 [00:30<01:33, 83.90it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2648/10291 [00:32<01:17, 98.06it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2843/10291 [00:34<01:17, 95.54it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|██▉       | 3046/10291 [00:37<01:18, 92.20it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███▏      | 3237/10291 [00:39<01:12, 97.51it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3423/10291 [00:41<01:16, 90.18it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▌      | 3610/10291 [00:43<01:14, 89.59it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▋      | 3745/10291 [00:44<01:14, 88.08it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3932/10291 [00:46<01:12, 87.48it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|███▉      | 4110/10291 [00:48<01:08, 90.37it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4317/10291 [00:50<00:59, 100.35it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▍     | 4514/10291 [00:52<00:59, 97.65it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 46%|████▌     | 4711/10291 [00:55<01:00, 92.98it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4904/10291 [00:57<00:56, 94.63it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 50%|████▉     | 5105/10291 [00:59<00:53, 97.36it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5307/10291 [01:01<00:48, 102.01it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▎    | 5527/10291 [01:03<00:45, 104.84it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▌    | 5702/10291 [01:04<00:45, 100.47it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 5942/10291 [01:07<00:42, 102.01it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|█████▉    | 6148/10291 [01:09<00:40, 101.64it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6356/10291 [01:11<00:39, 100.84it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▎   | 6560/10291 [01:13<00:36, 101.02it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▌   | 6769/10291 [01:15<00:35, 99.30it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 6971/10291 [01:17<00:32, 101.80it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 69%|██████▉   | 7126/10291 [01:19<00:30, 103.16it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████▏  | 7335/10291 [01:21<00:28, 103.49it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7544/10291 [01:23<00:26, 102.76it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7753/10291 [01:25<00:24, 102.59it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7962/10291 [01:27<00:22, 102.93it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8167/10291 [01:29<00:21, 98.62it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8375/10291 [01:31<00:19, 97.28it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8575/10291 [01:33<00:16, 102.81it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▌ | 8780/10291 [01:35<00:15, 98.95it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8985/10291 [01:37<00:14, 91.90it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9164/10291 [01:39<00:12, 87.19it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9353/10291 [01:41<00:09, 94.80it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9547/10291 [01:43<00:08, 89.77it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▍| 9746/10291 [01:45<00:05, 101.30it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▌| 9902/10291 [01:47<00:03, 105.93it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10111/10291 [01:49<00:01, 102.25it/s]s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10321it [01:51, 104.88it/s]                           s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10523it [01:53, 100.70it/s]                           s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10716it [01:55, 96.27it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10910it [01:57, 94.91it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11115it [01:59, 96.86it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11308it [02:01, 93.35it/s]                            s(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 37/10291 [00:01<04:41, 36.49it/s] loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  2%|▏         | 216/10291 [00:03<01:50, 90.92it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 408/10291 [00:05<01:47, 91.52it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▌         | 549/10291 [00:07<01:41, 96.02it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 743/10291 [00:09<01:44, 91.76it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▉         | 949/10291 [00:11<01:34, 98.35it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1145/10291 [00:13<01:35, 96.08it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1347/10291 [00:15<01:27, 102.43it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▌        | 1556/10291 [00:17<01:25, 101.70it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1765/10291 [00:19<01:23, 101.90it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▉        | 1972/10291 [00:21<01:21, 101.92it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2161/10291 [00:24<01:39, 81.88it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 23%|██▎       | 2323/10291 [00:25<01:36, 82.29it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2494/10291 [00:28<01:35, 81.47it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2666/10291 [00:30<01:31, 82.99it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2797/10291 [00:31<01:21, 92.00it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 3000/10291 [00:33<01:12, 100.72it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3208/10291 [00:35<01:10, 100.50it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3413/10291 [00:37<01:09, 99.32it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▌      | 3615/10291 [00:39<01:09, 96.02it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 37%|███▋      | 3818/10291 [00:41<01:07, 95.76it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 39%|███▉      | 4011/10291 [00:43<01:04, 96.76it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 41%|████      | 4207/10291 [00:45<01:03, 95.97it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4397/10291 [00:48<01:07, 87.78it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4585/10291 [00:50<01:01, 92.26it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 46%|████▋     | 4774/10291 [00:52<01:00, 91.24it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4965/10291 [00:54<00:55, 95.98it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 50%|████▉     | 5118/10291 [00:55<00:50, 102.26it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5338/10291 [00:57<00:47, 103.59it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▍    | 5546/10291 [00:59<00:46, 102.10it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▌    | 5755/10291 [01:01<00:45, 100.79it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 5953/10291 [01:03<00:44, 98.01it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|█████▉    | 6172/10291 [01:06<00:40, 102.81it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6381/10291 [01:08<00:38, 101.81it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▍   | 6590/10291 [01:10<00:36, 101.62it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▌   | 6798/10291 [01:12<00:34, 102.54it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7007/10291 [01:14<00:33, 99.03it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|███████   | 7211/10291 [01:16<00:30, 99.61it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7419/10291 [01:18<00:28, 100.83it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 74%|███████▍  | 7625/10291 [01:20<00:27, 97.11it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 76%|███████▌  | 7778/10291 [01:21<00:24, 103.83it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 78%|███████▊  | 7982/10291 [01:23<00:23, 97.64it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8174/10291 [01:25<00:22, 95.33it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8377/10291 [01:28<00:20, 94.22it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8571/10291 [01:30<00:17, 97.30it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▌ | 8764/10291 [01:32<00:15, 96.03it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8956/10291 [01:34<00:14, 92.79it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9149/10291 [01:36<00:12, 92.45it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9351/10291 [01:38<00:10, 91.88it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9542/10291 [01:40<00:07, 94.96it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▍| 9727/10291 [01:42<00:05, 96.81it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▋| 9929/10291 [01:44<00:03, 95.50it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10084/10291 [01:46<00:02, 97.85it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+100%|█████████▉| 10279/10291 [01:48<00:00, 95.29it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10471it [01:50, 85.35it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10645it [01:52, 86.17it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10837it [01:54, 101.75it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11046it [01:56, 101.94it/s]                          ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11243it [01:58, 83.25it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  1%|          | 115/10291 [00:02<01:50, 92.02it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 323/10291 [00:04<01:39, 99.79it/s]loss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▍         | 474/10291 [00:06<01:40, 97.68it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▋         | 665/10291 [00:08<01:42, 94.14it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 854/10291 [00:10<01:42, 92.50it/s] oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|█         | 1046/10291 [00:12<01:39, 92.64it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1239/10291 [00:14<01:34, 96.26it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▍        | 1431/10291 [00:16<01:34, 93.79it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1621/10291 [00:18<01:35, 90.61it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1808/10291 [00:20<01:35, 88.80it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▉        | 1985/10291 [00:22<01:31, 91.04it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2172/10291 [00:24<01:28, 91.84it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 23%|██▎       | 2362/10291 [00:26<01:26, 91.43it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 25%|██▍       | 2552/10291 [00:28<01:24, 91.39it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2743/10291 [00:30<01:19, 94.59it/s]oss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▊       | 2951/10291 [00:33<01:11, 102.44it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|███       | 3098/10291 [00:34<01:11, 100.02it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3307/10291 [00:36<01:08, 102.67it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3511/10291 [00:38<01:16, 88.83it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3683/10291 [00:40<01:17, 84.83it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 37%|███▋      | 3856/10291 [00:42<01:17, 82.78it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 39%|███▉      | 4031/10291 [00:44<01:14, 84.05it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 41%|████      | 4208/10291 [00:46<01:08, 88.37it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4426/10291 [00:48<00:56, 103.63it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4625/10291 [00:50<01:00, 93.06it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4815/10291 [00:53<00:58, 93.32it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5018/10291 [00:55<00:51, 102.34it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5227/10291 [00:57<00:49, 101.78it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5376/10291 [00:58<00:48, 100.74it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▍    | 5570/10291 [01:00<00:45, 103.01it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▌    | 5779/10291 [01:02<00:43, 102.92it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 5988/10291 [01:04<00:41, 102.78it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|██████    | 6197/10291 [01:06<00:41, 99.60it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6406/10291 [01:08<00:37, 102.55it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▍   | 6626/10291 [01:10<00:35, 104.20it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▋   | 6835/10291 [01:12<00:33, 104.22it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7041/10291 [01:15<00:31, 103.64it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|███████   | 7250/10291 [01:17<00:29, 103.87it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7446/10291 [01:19<00:28, 99.36it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 74%|███████▍  | 7656/10291 [01:21<00:26, 100.61it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 76%|███████▌  | 7805/10291 [01:22<00:24, 100.20it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 78%|███████▊  | 8000/10291 [01:24<00:24, 94.74it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 80%|███████▉  | 8191/10291 [01:26<00:22, 93.62it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8382/10291 [01:28<00:20, 92.87it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8572/10291 [01:30<00:18, 93.27it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▌ | 8762/10291 [01:32<00:17, 89.09it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8948/10291 [01:35<00:14, 90.51it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▊ | 9131/10291 [01:37<00:13, 88.38it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9314/10291 [01:39<00:11, 86.69it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 92%|█████████▏| 9492/10291 [01:41<00:08, 91.36it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 94%|█████████▍| 9683/10291 [01:43<00:06, 94.40it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▌| 9823/10291 [01:44<00:05, 90.84it/s] ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 10016/10291 [01:46<00:02, 93.48it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▉| 10196/10291 [01:48<00:01, 80.06it/s]ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10358it [01:50, 81.15it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10528it [01:52, 80.38it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10698it [01:55, 79.00it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10857it [01:57, 81.50it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11028it [01:59, 82.95it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11200it [02:01, 84.98it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11371it [02:03, 83.21it/s]                           ss(q_pred, bellman_target)nel_75780\757422201.py:39: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "smooth_l1":loss = F.smooth_l1_loss(q_pred, bellman_target)sing a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+[I 2024-03-20 00:06:45,512] Trial 2 finished with value: 0.6170228663903148 and parameters: {'batch_size': 64, 'n_units': 8, 'learning_rate': 0.0001, 'lr_decay': 0.75, 'lr_step': 5, 'negative_sampling': 8, 'loss': 'smooth_l1', 'update_freq': 4}. Best is trial 1 with value: 0.8360970948864347.re they have the same size.
+[I 2024-03-20 00:06:45,512] Trial 2 finished with value: 0.6170228663903148 and parameters: {'batch_size': 64, 'n_units': 8, 'learning_rate': 0.0001, 'lr_decay': 0.75, 'lr_step': 5, 'negative_sampling': 8, 'loss': 'smooth_l1', 'update_freq': 4}. Best is trial 1 with value: 0.8360970948864347.re they have the same size.

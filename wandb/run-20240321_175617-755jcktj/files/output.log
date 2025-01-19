@@ -1,0 +1,1331 @@
+
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:55, 98.38it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:57, 97.13it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 96.13it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:56, 97.76it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 96.40it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 96.30it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:55, 98.64it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 96.35it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:57, 96.47it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:55, 98.68it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 96.30it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:58, 95.75it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [01:59, 95.01it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11376it [02:04, 91.74it/s]
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:73: UserWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  0%|          | 0/10291 [00:00<?, ?it/s]C:\Users\CYP\AppData\Local\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)
+  4%|▍         | 388/10291 [00:05<01:35, 103.36it/s]
+  6%|▌         | 595/10291 [00:07<01:42, 94.96it/s]
+  7%|▋         | 757/10291 [00:09<01:36, 98.59it/s]
+  9%|▉         | 946/10291 [00:11<01:36, 97.31it/s]
+ 11%|█         | 1154/10291 [00:13<01:32, 98.78it/s]
+ 13%|█▎        | 1338/10291 [00:15<01:41, 88.34it/s]
+ 15%|█▍        | 1523/10291 [00:17<01:44, 84.28it/s]
+ 17%|█▋        | 1743/10291 [00:19<01:22, 103.68it/s]
+ 19%|█▉        | 1950/10291 [00:21<01:18, 106.62it/s]
+ 21%|██        | 2142/10291 [00:23<01:45, 77.25it/s]
+ 23%|██▎       | 2346/10291 [00:25<01:22, 96.82it/s]
+ 25%|██▍       | 2540/10291 [00:27<01:34, 81.86it/s]
+ 26%|██▋       | 2709/10291 [00:29<01:20, 93.81it/s]
+ 29%|██▊       | 2942/10291 [00:31<01:17, 94.25it/s]
+ 30%|██▉       | 3081/10291 [00:33<01:17, 93.40it/s]
+ 32%|███▏      | 3294/10291 [00:35<01:06, 105.30it/s]
+ 34%|███▍      | 3480/10291 [00:37<01:20, 84.88it/s]
+ 36%|███▌      | 3683/10291 [00:39<01:12, 90.78it/s]
+ 38%|███▊      | 3886/10291 [00:41<01:07, 94.81it/s]
+ 40%|███▉      | 4072/10291 [00:43<01:04, 95.72it/s]
+ 41%|████▏     | 4260/10291 [00:45<01:04, 92.87it/s]
+ 43%|████▎     | 4462/10291 [00:47<00:58, 99.75it/s]
+ 45%|████▌     | 4651/10291 [00:49<00:58, 97.21it/s]
+ 47%|████▋     | 4797/10291 [00:51<00:56, 97.72it/s]
+ 49%|████▊     | 5009/10291 [00:53<00:53, 98.21it/s]
+ 51%|█████     | 5218/10291 [00:55<00:53, 95.58it/s]
+ 53%|█████▎    | 5430/10291 [00:57<00:49, 98.07it/s]
+ 55%|█████▍    | 5611/10291 [00:59<00:48, 96.21it/s]
+ 57%|█████▋    | 5834/10291 [01:01<00:45, 97.25it/s]
+ 59%|█████▊    | 6036/10291 [01:03<00:44, 96.57it/s]
+ 61%|██████    | 6240/10291 [01:05<00:41, 96.90it/s]
+ 63%|██████▎   | 6435/10291 [01:07<00:41, 92.26it/s]
+ 64%|██████▍   | 6627/10291 [01:09<00:37, 97.73it/s]
+ 66%|██████▌   | 6807/10291 [01:11<00:40, 86.38it/s]
+ 67%|██████▋   | 6945/10291 [01:13<00:37, 88.85it/s]
+ 69%|██████▉   | 7145/10291 [01:15<00:32, 98.06it/s]
+ 71%|███████▏  | 7356/10291 [01:17<00:30, 97.56it/s]
+ 74%|███████▎  | 7568/10291 [01:19<00:25, 107.36it/s]
+ 76%|███████▌  | 7771/10291 [01:21<00:25, 99.95it/s]
+ 77%|███████▋  | 7947/10291 [01:23<00:26, 88.28it/s]
+ 79%|███████▉  | 8119/10291 [01:25<00:25, 86.04it/s]
+ 81%|████████  | 8310/10291 [01:27<00:21, 90.10it/s]
+ 82%|████████▏ | 8487/10291 [01:29<00:20, 86.68it/s]
+ 85%|████████▍ | 8712/10291 [01:31<00:14, 107.81it/s]
+ 86%|████████▋ | 8882/10291 [01:33<00:12, 109.95it/s]
+ 89%|████████▊ | 9112/10291 [01:35<00:10, 111.17it/s]
+ 91%|█████████ | 9337/10291 [01:37<00:08, 108.34it/s]
+ 93%|█████████▎| 9540/10291 [01:39<00:07, 98.60it/s]
+ 95%|█████████▍| 9726/10291 [01:41<00:05, 94.54it/s]
+ 96%|█████████▋| 9906/10291 [01:43<00:04, 92.69it/s]
+ 98%|█████████▊| 10093/10291 [01:45<00:02, 90.74it/s]
+10314it [01:47, 106.67it/s]
+10516it [01:49, 95.92it/s]
+10657it [01:51, 102.98it/s]
+10855it [01:53, 91.94it/s]
+11053it [01:55, 100.81it/s]
+11235it [01:57, 90.77it/s]
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.
+  2%|▏         | 179/10291 [00:03<01:34, 107.00it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 409/10291 [00:05<01:28, 111.39it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▌         | 626/10291 [00:07<01:31, 105.52it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 832/10291 [00:09<01:30, 104.01it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|▉         | 1000/10291 [00:11<01:24, 109.43it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1224/10291 [00:13<01:25, 105.96it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▎        | 1411/10291 [00:15<01:27, 101.26it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1608/10291 [00:17<01:37, 89.46it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1811/10291 [00:19<01:22, 102.44it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|█▉        | 2017/10291 [00:21<01:22, 100.34it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2215/10291 [00:23<01:24, 95.23it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▎       | 2424/10291 [00:25<01:21, 96.32it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2625/10291 [00:27<01:18, 97.45it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2820/10291 [00:29<01:20, 93.18it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 3013/10291 [00:31<01:10, 102.71it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3212/10291 [00:33<01:14, 95.25it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3358/10291 [00:35<01:13, 93.79it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▍      | 3558/10291 [00:37<01:10, 96.01it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▋      | 3747/10291 [00:39<01:03, 102.68it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3928/10291 [00:41<01:12, 87.73it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|████      | 4139/10291 [00:43<00:58, 104.49it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4329/10291 [00:45<01:09, 85.81it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▍     | 4521/10291 [00:47<01:05, 88.40it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 46%|████▌     | 4714/10291 [00:49<00:52, 106.13it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4915/10291 [00:51<00:55, 96.58it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 50%|████▉     | 5137/10291 [00:53<00:46, 109.90it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5330/10291 [00:55<00:58, 85.05it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▎    | 5509/10291 [00:57<00:52, 91.72it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▌    | 5710/10291 [01:00<00:43, 104.24it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5860/10291 [01:01<00:41, 107.25it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 59%|█████▉    | 6078/10291 [01:03<00:39, 107.08it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 61%|██████    | 6292/10291 [01:05<00:38, 102.77it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 63%|██████▎   | 6507/10291 [01:07<00:39, 95.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▌   | 6694/10291 [01:09<00:40, 87.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 67%|██████▋   | 6888/10291 [01:11<00:35, 96.33it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 69%|██████▉   | 7088/10291 [01:13<00:33, 95.35it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████   | 7281/10291 [01:16<00:30, 98.68it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7478/10291 [01:18<00:28, 98.68it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▍  | 7680/10291 [01:20<00:24, 105.93it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7878/10291 [01:22<00:25, 94.14it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▊  | 8082/10291 [01:24<00:23, 95.55it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 80%|████████  | 8238/10291 [01:25<00:22, 93.28it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 82%|████████▏ | 8424/10291 [01:27<00:21, 87.35it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▍ | 8626/10291 [01:29<00:17, 94.69it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8820/10291 [01:31<00:14, 100.45it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 88%|████████▊ | 9029/10291 [01:33<00:11, 106.42it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 90%|████████▉ | 9234/10291 [01:36<00:11, 94.83it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 92%|█████████▏| 9445/10291 [01:38<00:08, 103.47it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9615/10291 [01:40<00:07, 85.16it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▌| 9806/10291 [01:42<00:05, 86.59it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 9976/10291 [01:44<00:03, 82.64it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▊| 10153/10291 [01:46<00:01, 86.76it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10362it [01:48, 103.37it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10515it [01:49, 94.56it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10718it [01:52, 92.65it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10937it [01:54, 107.86it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11136it [01:56, 99.88it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11355it [01:58, 104.28it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  1%|          | 83/10291 [00:02<02:01, 84.14it/s]  bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 276/10291 [00:04<01:50, 90.99it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▍         | 476/10291 [00:06<01:40, 97.47it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 687/10291 [00:08<01:24, 113.21it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▊         | 900/10291 [00:10<01:27, 107.14it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1103/10291 [00:12<01:33, 97.98it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1320/10291 [00:14<01:28, 101.79it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▍        | 1506/10291 [00:16<01:30, 96.55it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1662/10291 [00:18<01:21, 106.03it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1877/10291 [00:20<01:23, 101.23it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|██        | 2077/10291 [00:22<01:34, 87.11it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2270/10291 [00:24<01:22, 96.64it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2452/10291 [00:26<01:30, 86.41it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2630/10291 [00:28<01:21, 94.07it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2826/10291 [00:30<01:19, 93.70it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 3015/10291 [00:32<01:16, 95.08it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3201/10291 [00:34<01:15, 94.49it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3390/10291 [00:36<01:11, 96.60it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▍      | 3599/10291 [00:38<01:04, 104.05it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▋      | 3738/10291 [00:40<01:12, 89.89it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3936/10291 [00:42<01:08, 93.16it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|███▉      | 4115/10291 [00:44<01:09, 88.48it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4310/10291 [00:46<01:04, 92.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▍     | 4506/10291 [00:48<01:01, 94.77it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 46%|████▌     | 4695/10291 [00:50<01:03, 88.59it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4875/10291 [00:52<01:02, 86.22it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5039/10291 [00:54<01:00, 87.44it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5202/10291 [00:56<01:03, 80.15it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5381/10291 [00:59<00:58, 84.63it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 54%|█████▍    | 5547/10291 [01:01<00:56, 83.72it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 56%|█████▌    | 5721/10291 [01:03<00:52, 86.29it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5860/10291 [01:04<00:47, 93.24it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 59%|█████▊    | 6040/10291 [01:06<00:46, 92.15it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|██████    | 6201/10291 [01:08<01:03, 64.86it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6363/10291 [01:10<00:48, 81.45it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▎   | 6535/10291 [01:12<00:42, 88.58it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▌   | 6690/10291 [01:14<00:47, 76.56it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 67%|██████▋   | 6867/10291 [01:17<00:38, 87.92it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7029/10291 [01:19<00:41, 78.35it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|███████   | 7204/10291 [01:21<00:35, 85.88it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7384/10291 [01:23<00:34, 83.37it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7524/10291 [01:24<00:30, 91.34it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7719/10291 [01:26<00:27, 93.95it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7891/10291 [01:28<00:27, 86.57it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▊  | 8086/10291 [01:31<00:23, 94.77it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 80%|████████  | 8270/10291 [01:33<00:24, 82.07it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 82%|████████▏ | 8451/10291 [01:35<00:20, 87.70it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▍ | 8622/10291 [01:37<00:20, 83.28it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8807/10291 [01:39<00:16, 90.39it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8992/10291 [01:41<00:14, 88.55it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9190/10291 [01:43<00:12, 90.00it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9385/10291 [01:45<00:09, 99.83it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9572/10291 [01:47<00:08, 83.03it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 94%|█████████▍| 9698/10291 [01:48<00:07, 82.41it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▌| 9876/10291 [01:51<00:04, 84.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10063/10291 [01:53<00:02, 95.42it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+100%|█████████▉| 10249/10291 [01:55<00:00, 97.70it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10475it [01:57, 115.39it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10686it [01:59, 104.91it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10893it [02:01, 103.13it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11101it [02:03, 87.06it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11292it [02:05, 103.48it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  1%|          | 72/10291 [00:02<02:18, 73.95it/s]  bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  2%|▏         | 230/10291 [00:03<01:37, 103.42it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  4%|▍         | 438/10291 [00:06<01:48, 90.46it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  6%|▌         | 624/10291 [00:07<01:46, 90.66it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  8%|▊         | 820/10291 [00:10<01:39, 95.65it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 10%|▉         | 1000/10291 [00:12<01:48, 85.45it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1190/10291 [00:14<01:41, 89.37it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▎        | 1397/10291 [00:16<01:32, 96.64it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▌        | 1594/10291 [00:18<01:27, 98.85it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1798/10291 [00:20<01:23, 101.58it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 19%|█▉        | 2001/10291 [00:22<01:25, 96.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██▏       | 2189/10291 [00:24<01:27, 92.32it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 23%|██▎       | 2345/10291 [00:26<01:23, 95.41it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2516/10291 [00:28<01:44, 74.70it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▋       | 2717/10291 [00:30<01:19, 94.99it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2913/10291 [00:32<01:18, 93.81it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|███       | 3101/10291 [00:34<01:21, 87.73it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3301/10291 [00:36<01:09, 101.18it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3511/10291 [00:38<01:09, 96.90it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3704/10291 [00:40<01:10, 92.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3917/10291 [00:42<01:05, 97.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|████      | 4134/10291 [00:44<01:01, 100.19it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4342/10291 [00:46<00:59, 100.05it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▎     | 4487/10291 [00:48<01:06, 87.59it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▌     | 4680/10291 [00:50<00:56, 99.02it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4872/10291 [00:52<00:57, 94.89it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5064/10291 [00:54<00:55, 94.14it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5257/10291 [00:56<00:51, 97.72it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5466/10291 [00:58<00:47, 101.31it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▌    | 5669/10291 [01:00<00:44, 103.11it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5883/10291 [01:02<00:42, 104.70it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 59%|█████▉    | 6072/10291 [01:04<00:46, 91.20it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 61%|██████    | 6263/10291 [01:06<00:42, 95.63it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 63%|██████▎   | 6446/10291 [01:08<00:43, 88.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▍   | 6651/10291 [01:10<00:35, 102.47it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 67%|██████▋   | 6847/10291 [01:12<00:31, 110.10it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 69%|██████▊   | 7065/10291 [01:14<00:31, 102.87it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████   | 7278/10291 [01:17<00:28, 104.18it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7437/10291 [01:18<00:30, 93.03it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 74%|███████▍  | 7623/10291 [01:20<00:29, 91.35it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 76%|███████▌  | 7801/10291 [01:22<00:27, 91.23it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 78%|███████▊  | 7980/10291 [01:24<00:25, 90.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8174/10291 [01:26<00:21, 96.93it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████▏ | 8368/10291 [01:28<00:21, 88.51it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8580/10291 [01:30<00:16, 106.41it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▌ | 8796/10291 [01:33<00:15, 98.42it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8998/10291 [01:35<00:13, 94.61it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9188/10291 [01:37<00:11, 94.56it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9376/10291 [01:39<00:09, 93.87it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9581/10291 [01:41<00:07, 98.10it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▌| 9785/10291 [01:43<00:04, 108.16it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 9935/10291 [01:44<00:03, 109.76it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▊| 10137/10291 [01:46<00:01, 97.42it/s] llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10333it [01:48, 93.70it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10538it [01:51, 91.79it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10740it [01:53, 107.74it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10935it [01:55, 97.81it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11150it [01:57, 100.52it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11364it [01:59, 112.24it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  2%|▏         | 157/10291 [00:03<01:38, 102.81it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 351/10291 [00:05<01:34, 104.82it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▌         | 560/10291 [00:07<01:39, 97.74it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 722/10291 [00:08<01:33, 102.23it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▉         | 915/10291 [00:10<01:37, 96.19it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1102/10291 [00:12<01:42, 89.55it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1302/10291 [00:15<01:33, 95.66it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▍        | 1492/10291 [00:17<01:31, 95.93it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▌        | 1669/10291 [00:19<01:32, 93.57it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1877/10291 [00:21<01:29, 94.15it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|██        | 2077/10291 [00:23<01:20, 101.69it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2275/10291 [00:25<01:23, 95.79it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2465/10291 [00:27<01:30, 86.53it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▌       | 2649/10291 [00:29<01:25, 89.87it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2845/10291 [00:31<01:26, 85.89it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 2983/10291 [00:32<01:20, 90.96it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3184/10291 [00:35<01:19, 89.58it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 33%|███▎      | 3379/10291 [00:37<01:15, 91.63it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▍      | 3581/10291 [00:39<01:10, 94.78it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 37%|███▋      | 3769/10291 [00:41<01:13, 88.61it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 39%|███▊      | 3980/10291 [00:43<01:02, 101.77it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|████      | 4158/10291 [00:45<00:59, 102.82it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4365/10291 [00:47<00:56, 104.94it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 44%|████▍     | 4556/10291 [00:49<01:07, 84.51it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 46%|████▌     | 4735/10291 [00:51<01:06, 83.53it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4915/10291 [00:53<01:03, 84.98it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5049/10291 [00:55<01:01, 85.10it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5248/10291 [00:57<00:49, 102.07it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5453/10291 [00:59<00:49, 98.18it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▍    | 5657/10291 [01:01<00:47, 97.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5871/10291 [01:03<00:43, 100.69it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 59%|█████▉    | 6071/10291 [01:05<00:47, 88.08it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 61%|██████    | 6250/10291 [01:07<00:49, 81.65it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6423/10291 [01:09<00:45, 84.71it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▍   | 6625/10291 [01:11<00:40, 91.46it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▌   | 6810/10291 [01:13<00:38, 91.19it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7007/10291 [01:15<00:33, 99.26it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|███████   | 7205/10291 [01:17<00:31, 97.00it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 71%|███████▏  | 7358/10291 [01:19<00:32, 90.81it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7556/10291 [01:21<00:27, 98.40it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7751/10291 [01:23<00:26, 97.56it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7955/10291 [01:25<00:23, 100.85it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8146/10291 [01:27<00:26, 82.18it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████  | 8350/10291 [01:29<00:17, 108.15it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 83%|████████▎ | 8545/10291 [01:31<00:16, 104.59it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 85%|████████▍ | 8738/10291 [01:33<00:17, 90.41it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 87%|████████▋ | 8916/10291 [01:35<00:16, 84.46it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9137/10291 [01:37<00:10, 113.63it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9367/10291 [01:39<00:08, 114.34it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9524/10291 [01:41<00:07, 107.45it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 95%|█████████▍| 9728/10291 [01:43<00:05, 96.76it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 97%|█████████▋| 9950/10291 [01:45<00:03, 101.31it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 99%|█████████▊| 10153/10291 [01:47<00:01, 103.88it/s]llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10379it [01:49, 112.56it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10556it [01:51, 105.35it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10771it [01:53, 105.26it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10983it [01:55, 108.53it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11219it [01:58, 111.95it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  2%|▏         | 180/10291 [00:03<01:52, 89.80it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 316/10291 [00:05<01:59, 83.23it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▌         | 520/10291 [00:07<01:43, 94.71it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 708/10291 [00:09<01:39, 96.63it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▊         | 888/10291 [00:11<01:57, 80.16it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1083/10291 [00:13<01:30, 102.16it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 12%|█▏        | 1280/10291 [00:15<01:37, 92.54it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 14%|█▍        | 1479/10291 [00:17<01:29, 98.27it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 16%|█▋        | 1685/10291 [00:19<01:34, 90.87it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1862/10291 [00:21<01:30, 93.64it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 20%|██        | 2079/10291 [00:23<01:20, 101.80it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 22%|██▏       | 2278/10291 [00:25<01:38, 81.32it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2472/10291 [00:27<01:23, 93.14it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 25%|██▌       | 2624/10291 [00:29<01:14, 102.58it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 27%|██▋       | 2800/10291 [00:31<01:19, 93.71it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 29%|██▉       | 2969/10291 [00:33<01:39, 73.23it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 31%|███       | 3145/10291 [00:35<01:24, 84.75it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3308/10291 [00:37<01:33, 74.53it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▍      | 3475/10291 [00:39<01:24, 80.43it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 35%|███▌      | 3648/10291 [00:41<01:12, 91.23it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 37%|███▋      | 3821/10291 [00:43<01:28, 72.71it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 39%|███▉      | 3990/10291 [00:45<01:11, 87.73it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 41%|████      | 4174/10291 [00:47<01:12, 83.91it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 42%|████▏     | 4333/10291 [00:50<01:19, 74.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4452/10291 [00:51<01:17, 75.76it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4619/10291 [00:53<01:06, 85.36it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4789/10291 [00:55<01:07, 81.10it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 48%|████▊     | 4952/10291 [00:57<01:05, 81.89it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 50%|████▉     | 5135/10291 [00:59<01:03, 81.68it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 52%|█████▏    | 5314/10291 [01:01<00:54, 90.83it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5498/10291 [01:03<00:55, 86.70it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▌    | 5680/10291 [01:05<00:49, 92.36it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5888/10291 [01:08<00:47, 92.62it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 59%|█████▉    | 6089/10291 [01:10<00:41, 101.75it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 61%|██████    | 6289/10291 [01:12<00:44, 90.60it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 63%|██████▎   | 6470/10291 [01:14<00:42, 89.05it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 65%|██████▍   | 6657/10291 [01:16<00:36, 100.03it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▋   | 6831/10291 [01:18<00:38, 89.94it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 7012/10291 [01:20<00:36, 90.73it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|██████▉   | 7168/10291 [01:21<00:32, 97.55it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7364/10291 [01:23<00:32, 90.87it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 73%|███████▎  | 7558/10291 [01:26<00:28, 94.89it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 75%|███████▌  | 7767/10291 [01:28<00:26, 94.95it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 77%|███████▋  | 7958/10291 [01:30<00:26, 89.58it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 79%|███████▉  | 8112/10291 [01:32<00:34, 62.34it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 81%|████████  | 8286/10291 [01:34<00:24, 82.68it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 82%|████████▏ | 8464/10291 [01:36<00:19, 95.54it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▍ | 8650/10291 [01:38<00:18, 91.13it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8839/10291 [01:40<00:15, 96.59it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 88%|████████▊ | 9041/10291 [01:42<00:12, 98.04it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 89%|████████▉ | 9185/10291 [01:44<00:12, 86.78it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 91%|█████████ | 9359/10291 [01:46<00:10, 90.79it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 93%|█████████▎| 9535/10291 [01:48<00:08, 88.73it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 94%|█████████▍| 9699/10291 [01:50<00:07, 82.32it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▌| 9893/10291 [01:52<00:04, 97.08it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10106/10291 [01:54<00:01, 98.87it/s] llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10311it [01:56, 99.75it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10523it [01:58, 94.85it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10709it [02:00, 89.36it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10894it [02:02, 89.60it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11085it [02:04, 104.37it/s]                           llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11277it [02:06, 90.68it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  0%|          | 0/10291 [00:00<?, ?it/s]ss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+  1%|▏         | 140/10291 [00:03<01:48, 93.65it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  3%|▎         | 331/10291 [00:05<01:48, 91.73it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  5%|▌         | 518/10291 [00:07<01:42, 95.54it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  7%|▋         | 703/10291 [00:09<01:42, 93.55it/s] bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  9%|▉         | 917/10291 [00:11<01:28, 105.57it/s]bellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 11%|█         | 1124/10291 [00:13<01:24, 108.98it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 13%|█▎        | 1333/10291 [00:15<01:33, 95.44it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 15%|█▍        | 1530/10291 [00:17<01:41, 86.46it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 17%|█▋        | 1747/10291 [00:19<01:19, 107.57it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 18%|█▊        | 1903/10291 [00:21<01:21, 102.53it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 21%|██        | 2114/10291 [00:23<01:22, 99.59it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 23%|██▎       | 2343/10291 [00:25<01:10, 112.24it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 24%|██▍       | 2516/10291 [00:27<01:29, 87.19it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 26%|██▋       | 2702/10291 [00:29<01:26, 87.69it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 28%|██▊       | 2884/10291 [00:31<01:20, 92.27it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 30%|██▉       | 3041/10291 [00:33<01:19, 90.98it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 32%|███▏      | 3264/10291 [00:35<01:13, 95.16it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 34%|███▎      | 3467/10291 [00:37<01:08, 100.03it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 36%|███▌      | 3672/10291 [00:39<01:03, 104.75it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 38%|███▊      | 3883/10291 [00:41<01:03, 101.63it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 40%|███▉      | 4083/10291 [00:43<01:07, 92.12it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 41%|████      | 4219/10291 [00:45<01:06, 91.23it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 43%|████▎     | 4415/10291 [00:47<01:00, 97.74it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 45%|████▍     | 4616/10291 [00:49<01:00, 93.70it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 47%|████▋     | 4813/10291 [00:51<00:56, 96.71it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 49%|████▉     | 5023/10291 [00:53<00:52, 100.00it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 51%|█████     | 5220/10291 [00:55<00:50, 100.14it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 53%|█████▎    | 5418/10291 [00:57<00:49, 98.80it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 55%|█████▍    | 5625/10291 [00:59<00:46, 100.61it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 57%|█████▋    | 5825/10291 [01:01<00:47, 94.12it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 58%|█████▊    | 6010/10291 [01:03<00:48, 87.43it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 60%|██████    | 6192/10291 [01:05<00:39, 103.43it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 62%|██████▏   | 6408/10291 [01:07<00:36, 106.80it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 64%|██████▍   | 6580/10291 [01:09<00:35, 104.14it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 66%|██████▌   | 6776/10291 [01:11<00:32, 107.03it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 68%|██████▊   | 6994/10291 [01:13<00:33, 97.45it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 70%|██████▉   | 7188/10291 [01:15<00:34, 90.38it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 72%|███████▏  | 7380/10291 [01:17<00:30, 95.56it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 74%|███████▍  | 7603/10291 [01:19<00:26, 102.81it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 76%|███████▌  | 7816/10291 [01:21<00:22, 111.04it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 78%|███████▊  | 8029/10291 [01:23<00:23, 98.27it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 80%|████████  | 8238/10291 [01:25<00:20, 99.65it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 82%|████████▏ | 8447/10291 [01:27<00:17, 105.54it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 84%|████████▍ | 8666/10291 [01:30<00:16, 100.26it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 86%|████████▌ | 8828/10291 [01:31<00:13, 111.52it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 88%|████████▊ | 9039/10291 [01:33<00:11, 107.51it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 90%|████████▉ | 9242/10291 [01:35<00:11, 94.69it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 92%|█████████▏| 9450/10291 [01:37<00:07, 109.73it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 94%|█████████▍| 9663/10291 [01:39<00:06, 102.25it/s]ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 96%|█████████▌| 9861/10291 [01:41<00:04, 91.87it/s] ellman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+ 98%|█████████▊| 10058/10291 [01:43<00:02, 100.00it/s]llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+100%|█████████▉| 10263/10291 [01:45<00:00, 105.14it/s]llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10466it [01:48, 96.06it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10666it [01:50, 95.74it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+10859it [01:52, 93.44it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11062it [01:54, 95.13it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+11245it [01:56, 98.69it/s]                            llman_target)\Temp\ipykernel_75780\757422201.py:40: UserWarning: Using a target size (torch.Size([64, 64])) that is different to the input size (torch.Size([64])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([256, 256])) that is different to the input size (torch.Size([256])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.Please ensure they have the same size.
+  elif loss_type == "mse":loss = F.mse_loss(q_pred, bellman_target)erWarning: Using a target size (torch.Size([77, 77])) that is different to the input size (torch.Size([77])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.ze.Please ensure they have the same size.
+[I 2024-03-21 18:40:14,604] Trial 24 finished with value: 0.8340159012829749 and parameters: {'batch_size': 64, 'n_units': 2, 'learning_rate': 1e-06, 'lr_decay': 0.85, 'lr_step': 5, 'negative_sampling': 8, 'loss': 'mse', 'update_freq': 4}. Best is trial 12 with value: 0.8469901339512741. ensure they have the same size.
+[I 2024-03-21 18:40:14,604] Trial 24 finished with value: 0.8340159012829749 and parameters: {'batch_size': 64, 'n_units': 2, 'learning_rate': 1e-06, 'lr_decay': 0.85, 'lr_step': 5, 'negative_sampling': 8, 'loss': 'mse', 'update_freq': 4}. Best is trial 12 with value: 0.8469901339512741. ensure they have the same size.

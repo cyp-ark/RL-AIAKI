@@ -1,0 +1,11 @@
+[W 2024-03-19 15:32:52,885] Trial 0 failed with parameters: {'batch_size': 32, 'n_units': 4, 'learning_rate': 1e-06, 'lr_decay': 0.95, 'lr_step': 2, 'negative_sampling': 2, 'loss': 'mse', 'update_freq': 2} because of the following error: TypeError("CustomSampler.__init__() missing 1 required positional argument: 'target'").
+Traceback (most recent call last):
+  File "c:\Users\CYP\anaconda3\envs\torch\lib\site-packages\optuna\study\_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_64416\1960386959.py", line 29, in objective
+    auroc = train(batch_size,n_units,lr,lr_decay,lr_step,ns,loss,epochs,update_freq)
+  File "C:\Users\CYP\AppData\Local\Temp\ipykernel_64416\2256750595.py", line 13, in train
+    sampler = CustomSampler(train_data,batch_size,ns=ns)
+TypeError: CustomSampler.__init__() missing 1 required positional argument: 'target'
+[W 2024-03-19 15:32:52,886] Trial 0 failed with value None.
+[I 2024-03-19 15:33:39,063] A new study created in memory with name: no-name-a565868a-53bf-4d45-8820-c6b800ef8d3c
