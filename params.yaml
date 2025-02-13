@@ -1,0 +1,23 @@
+random_seed : 2345
+device : 'cuda:1'
+
+train : './code/train.parquet'
+val   : './code/val.parquet'
+test  : './code/test.parquet'
+
+minibatch_size : 64
+rolling_size : 24
+
+epoch : 200
+
+state_dim : 125
+num_actions : 12
+n_units : 64
+gamma : 1
+learning_rate : 0.001
+update_freq : 2
+
+exp_saving_period: 1
+exp_num_epochs: 100
+
+kernel_size : 4
